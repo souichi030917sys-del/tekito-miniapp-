@@ -40,6 +40,8 @@
       border-radius: 20px;
       box-shadow: 0 14px 30px rgba(0, 0, 0, 0.09);
       padding: 24px;
+      display: flex;
+      flex-direction: column;
     }
 
     h1 {
@@ -105,6 +107,11 @@
       flex-wrap: wrap;
       align-items: center;
     }
+
+    .top-actions { order: 1; }
+    .result { order: 2; }
+    .explain-panel { order: 3; }
+    .bottom-actions { order: 4; }
 
     button {
       border: 0;
@@ -216,14 +223,14 @@
       </div>
     </div>
 
-    <div class="action-row">
+    <div class="action-row top-actions">
       <button id="showBtn" class="primary">答えを表示</button>
       <button id="nextBtn" class="tertiary">次の単語</button>
     </div>
 
     <p id="result" class="result"></p>
 
-    <section id="explain" class="explain">
+    <section id="explain" class="explain explain-panel">
       <h2>答え・解説</h2>
       <p id="partLine"></p>
 
@@ -244,7 +251,7 @@
       </div>
     </section>
 
-    <div class="action-row">
+    <div class="action-row bottom-actions">
       <button id="shuffleBtn" class="tertiary">順番シャッフル</button>
       <button id="resetBtn" class="tertiary">表示リセット</button>
     </div>
@@ -315,8 +322,11 @@
       fillList(meaningListEl, current.meanings || []);
       fillList(usageListEl, current.usage || []);
 
-      exampleEnEl.textContent = `EN: ${current.example?.en || ""}`;
-      exampleJaEl.textContent = `JA: ${current.example?.ja || ""}`;
+      const exampleEn = current.example?.en || `${current.word} is used in many contexts.`;
+      const rawJa = current.example?.ja || current.meanings?.[0] || "";
+      const exampleJa = rawJa.replace(/^日本語訳[:：]\s*/, "");
+      exampleEnEl.textContent = `例文（英語）: ${exampleEn}`;
+      exampleJaEl.textContent = `日本語訳: ${exampleJa}`;
     }
 
     function showWord() {

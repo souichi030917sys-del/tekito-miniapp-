@@ -1,0 +1,349 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tekito Mini App</title>
+  <style>
+    :root {
+      --bg: #f3f0e8;
+      --panel: #fffaf0;
+      --text: #1e1e1e;
+      --accent: #c46b2a;
+      --accent-2: #2e6f63;
+      --muted: #7a746c;
+      --line: #ded5c8;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 20% 10%, #fce7cf 0%, transparent 35%),
+        radial-gradient(circle at 80% 90%, #d5efe8 0%, transparent 30%),
+        var(--bg);
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    .app {
+      width: min(920px, 100%);
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+
+    .header {
+      padding: 24px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .title {
+      margin: 0;
+      font-size: clamp(24px, 3.5vw, 34px);
+      letter-spacing: 0.02em;
+    }
+
+    .sub {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .clock {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--accent-2);
+      background: #ecf7f4;
+      border: 1px solid #c8e3dd;
+      border-radius: 999px;
+      padding: 10px 16px;
+      min-width: 110px;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+
+    .panel {
+      padding: 22px;
+    }
+
+    .panel + .panel {
+      border-left: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: 20px;
+    }
+
+    .row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    input[type="text"] {
+      flex: 1;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px 12px;
+      font-size: 15px;
+      background: #fff;
+    }
+
+    button {
+      border: 0;
+      border-radius: 12px;
+      padding: 10px 14px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+
+    button:hover { transform: translateY(-1px); }
+    button:active { transform: translateY(0); }
+
+    .btn-main {
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .btn-ghost {
+      background: #f3ebe1;
+      color: #664126;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 8px;
+      max-height: 320px;
+      overflow: auto;
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--line);
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: #fff;
+    }
+
+    .todo-text.done {
+      text-decoration: line-through;
+      color: var(--muted);
+    }
+
+    .timer-display {
+      font-size: clamp(36px, 7vw, 64px);
+      font-weight: 800;
+      text-align: center;
+      margin: 8px 0 20px;
+      letter-spacing: 0.04em;
+      color: var(--accent-2);
+    }
+
+    .timer-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 14px;
+    }
+
+    .status {
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+      .panel + .panel { border-left: 0; border-top: 1px solid var(--line); }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <div>
+        <h1 class="title">Tekito Mini App</h1>
+        <p class="sub">ToDoと25分タイマーを雑にまとめた作業用ミニアプリ</p>
+      </div>
+      <div id="clock" class="clock">--:--:--</div>
+    </header>
+
+    <section class="grid">
+      <article class="panel">
+        <h2>ToDo</h2>
+        <div class="row">
+          <input id="todoInput" type="text" placeholder="やることを入力" maxlength="80" />
+          <button id="addBtn" class="btn-main">追加</button>
+        </div>
+        <ul id="todoList"></ul>
+      </article>
+
+      <article class="panel">
+        <h2>Focus Timer</h2>
+        <div id="timer" class="timer-display">25:00</div>
+        <div class="timer-buttons">
+          <button id="startBtn" class="btn-main">開始</button>
+          <button id="pauseBtn" class="btn-ghost">停止</button>
+          <button id="resetBtn" class="btn-ghost">リセット</button>
+          <button id="fiveBtn" class="btn-ghost">+5分</button>
+        </div>
+        <p id="status" class="status">待機中</p>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    const todoInput = document.getElementById("todoInput");
+    const addBtn = document.getElementById("addBtn");
+    const todoList = document.getElementById("todoList");
+
+    const clock = document.getElementById("clock");
+    const timerEl = document.getElementById("timer");
+    const statusEl = document.getElementById("status");
+    const startBtn = document.getElementById("startBtn");
+    const pauseBtn = document.getElementById("pauseBtn");
+    const resetBtn = document.getElementById("resetBtn");
+    const fiveBtn = document.getElementById("fiveBtn");
+
+    let todos = JSON.parse(localStorage.getItem("tekitoTodos") || "[]");
+
+    function saveTodos() {
+      localStorage.setItem("tekitoTodos", JSON.stringify(todos));
+    }
+
+    function renderTodos() {
+      todoList.innerHTML = "";
+      todos.forEach((todo, index) => {
+        const li = document.createElement("li");
+
+        const text = document.createElement("span");
+        text.textContent = todo.text;
+        text.className = "todo-text" + (todo.done ? " done" : "");
+        text.onclick = () => {
+          todos[index].done = !todos[index].done;
+          saveTodos();
+          renderTodos();
+        };
+
+        const del = document.createElement("button");
+        del.textContent = "削除";
+        del.className = "btn-ghost";
+        del.onclick = () => {
+          todos.splice(index, 1);
+          saveTodos();
+          renderTodos();
+        };
+
+        li.append(text, del);
+        todoList.appendChild(li);
+      });
+    }
+
+    addBtn.onclick = () => {
+      const text = todoInput.value.trim();
+      if (!text) return;
+      todos.unshift({ text, done: false });
+      todoInput.value = "";
+      saveTodos();
+      renderTodos();
+    };
+
+    todoInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") addBtn.click();
+    });
+
+    function tickClock() {
+      const now = new Date();
+      clock.textContent = now.toLocaleTimeString("ja-JP", { hour12: false });
+    }
+    tickClock();
+    setInterval(tickClock, 1000);
+
+    let timeLeft = 25 * 60;
+    let timerId = null;
+
+    function formatTime(sec) {
+      const m = String(Math.floor(sec / 60)).padStart(2, "0");
+      const s = String(sec % 60).padStart(2, "0");
+      return `${m}:${s}`;
+    }
+
+    function updateTimer() {
+      timerEl.textContent = formatTime(timeLeft);
+    }
+
+    function startTimer() {
+      if (timerId) return;
+      statusEl.textContent = "集中中";
+      timerId = setInterval(() => {
+        timeLeft -= 1;
+        updateTimer();
+        if (timeLeft <= 0) {
+          clearInterval(timerId);
+          timerId = null;
+          statusEl.textContent = "完了! 休憩しよう";
+          timeLeft = 0;
+          updateTimer();
+          alert("25分終了! お疲れさま");
+        }
+      }, 1000);
+    }
+
+    function pauseTimer() {
+      if (!timerId) return;
+      clearInterval(timerId);
+      timerId = null;
+      statusEl.textContent = "一時停止";
+    }
+
+    function resetTimer() {
+      clearInterval(timerId);
+      timerId = null;
+      timeLeft = 25 * 60;
+      statusEl.textContent = "待機中";
+      updateTimer();
+    }
+
+    function addFiveMin() {
+      timeLeft += 5 * 60;
+      updateTimer();
+    }
+
+    startBtn.onclick = startTimer;
+    pauseBtn.onclick = pauseTimer;
+    resetBtn.onclick = resetTimer;
+    fiveBtn.onclick = addFiveMin;
+
+    renderTodos();
+    updateTimer();
+  </script>
+</body>
+</html>

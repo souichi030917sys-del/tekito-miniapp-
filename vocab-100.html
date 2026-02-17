@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>大学受験英単語 100</title>
+  <style>
+    :root {
+      --bg1: #f7f4ea;
+      --bg2: #dceee8;
+      --card: #fffef8;
+      --line: #d8d1c5;
+      --text: #1f1f1f;
+      --muted: #6f695f;
+      --accent: #1f6f61;
+      --accent2: #b86b2a;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 20px;
+      color: var(--text);
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      background:
+        radial-gradient(circle at 15% 20%, #fbe2c4 0%, transparent 30%),
+        radial-gradient(circle at 85% 80%, #cce8df 0%, transparent 30%),
+        linear-gradient(140deg, var(--bg1), var(--bg2));
+    }
+
+    .card {
+      width: min(740px, 100%);
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.09);
+      padding: 26px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(24px, 4vw, 36px);
+      letter-spacing: 0.02em;
+    }
+
+    .subtitle {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .word-wrap {
+      margin: 24px 0 18px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 24px;
+      background: #fff;
+      min-height: 220px;
+      display: grid;
+      align-content: center;
+      gap: 10px;
+      transition: opacity 0.35s ease, transform 0.35s ease;
+    }
+
+    .word-wrap.fade {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+
+    .en {
+      font-size: clamp(38px, 8vw, 72px);
+      line-height: 1;
+      font-weight: 800;
+      color: var(--accent);
+      word-break: break-word;
+    }
+
+    .ja {
+      font-size: clamp(22px, 5vw, 34px);
+      color: var(--accent2);
+      font-weight: 700;
+    }
+
+    .meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 14px;
+      border-top: 1px solid var(--line);
+      padding-top: 12px;
+    }
+
+    .badge {
+      display: inline-block;
+      border: 1px solid #bdd8d2;
+      background: #e9f6f3;
+      color: #245f54;
+      border-radius: 999px;
+      padding: 7px 12px;
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    .controls {
+      margin-top: 16px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      border: 0;
+      border-radius: 12px;
+      padding: 10px 14px;
+      font-size: 14px;
+      cursor: pointer;
+      font-weight: 700;
+      transition: transform 0.15s ease;
+    }
+
+    button:hover { transform: translateY(-1px); }
+
+    .primary {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .secondary {
+      background: #ede5d9;
+      color: #5b422b;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>大学受験英単語 100</h1>
+    <p class="subtitle">10秒ごとに英単語と日本語訳が入れ替わります。</p>
+
+    <section id="wordWrap" class="word-wrap">
+      <div id="en" class="en">loading...</div>
+      <div id="ja" class="ja">読み込み中</div>
+    </section>
+
+    <div class="meta">
+      <div><span class="badge">収録: 100語</span></div>
+      <div>
+        <span id="count">1 / 100</span>
+        <span> | 次の更新まで <strong id="countdown">10</strong> 秒</span>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="nextBtn" class="primary">今すぐ次へ</button>
+      <button id="shuffleBtn" class="secondary">順番をシャッフル</button>
+    </div>
+  </main>
+
+  <script>
+    const words = [
+      { en: "abandon", ja: "捨てる" },
+      { en: "absorb", ja: "吸収する" },
+      { en: "abstract", ja: "抽象的な" },
+      { en: "accompany", ja: "伴う" },
+      { en: "accomplish", ja: "成し遂げる" },
+      { en: "accumulate", ja: "蓄積する" },
+      { en: "accurate", ja: "正確な" },
+      { en: "adapt", ja: "適応する" },
+      { en: "adequate", ja: "十分な" },
+      { en: "adjust", ja: "調整する" },
+      { en: "admit", ja: "認める" },
+      { en: "advocate", ja: "主張する" },
+      { en: "affect", ja: "影響を与える" },
+      { en: "aggregate", ja: "総計の" },
+      { en: "allocate", ja: "割り当てる" },
+      { en: "alter", ja: "変える" },
+      { en: "ambiguous", ja: "曖昧な" },
+      { en: "anticipate", ja: "予期する" },
+      { en: "apparent", ja: "明らかな" },
+      { en: "approach", ja: "取り組む" },
+      { en: "appropriate", ja: "適切な" },
+      { en: "approximate", ja: "おおよその" },
+      { en: "arise", ja: "生じる" },
+      { en: "artificial", ja: "人工的な" },
+      { en: "assess", ja: "評価する" },
+      { en: "assume", ja: "仮定する" },
+      { en: "attain", ja: "達成する" },
+      { en: "attribute", ja: "〜のせいにする" },
+      { en: "aware", ja: "気づいている" },
+      { en: "beneficial", ja: "有益な" },
+      { en: "brief", ja: "簡潔な" },
+      { en: "calculate", ja: "計算する" },
+      { en: "capacity", ja: "能力" },
+      { en: "cease", ja: "やめる" },
+      { en: "circumstance", ja: "状況" },
+      { en: "cite", ja: "引用する" },
+      { en: "civilization", ja: "文明" },
+      { en: "clarify", ja: "明確にする" },
+      { en: "coherent", ja: "一貫した" },
+      { en: "coincide", ja: "一致する" },
+      { en: "collapse", ja: "崩壊する" },
+      { en: "combine", ja: "結合する" },
+      { en: "commence", ja: "開始する" },
+      { en: "compel", ja: "強いる" },
+      { en: "compensate", ja: "補償する" },
+      { en: "comprehensive", ja: "包括的な" },
+      { en: "conceal", ja: "隠す" },
+      { en: "concentrate", ja: "集中する" },
+      { en: "conclude", ja: "結論づける" },
+      { en: "concrete", ja: "具体的な" },
+      { en: "conduct", ja: "行う" },
+      { en: "confine", ja: "制限する" },
+      { en: "confirm", ja: "確認する" },
+      { en: "conscious", ja: "意識している" },
+      { en: "consequence", ja: "結果" },
+      { en: "considerable", ja: "かなりの" },
+      { en: "consist", ja: "成る" },
+      { en: "constant", ja: "絶え間ない" },
+      { en: "consume", ja: "消費する" },
+      { en: "contemporary", ja: "現代の" },
+      { en: "contradict", ja: "矛盾する" },
+      { en: "contribute", ja: "貢献する" },
+      { en: "conventional", ja: "従来の" },
+      { en: "convert", ja: "変換する" },
+      { en: "convince", ja: "納得させる" },
+      { en: "crucial", ja: "極めて重要な" },
+      { en: "cultivate", ja: "養う" },
+      { en: "decline", ja: "減少する" },
+      { en: "deduce", ja: "推論する" },
+      { en: "define", ja: "定義する" },
+      { en: "demonstrate", ja: "実証する" },
+      { en: "derive", ja: "引き出す" },
+      { en: "despite", ja: "〜にもかかわらず" },
+      { en: "detect", ja: "見つける" },
+      { en: "diminish", ja: "減少する" },
+      { en: "distribute", ja: "分配する" },
+      { en: "domestic", ja: "国内の" },
+      { en: "eliminate", ja: "取り除く" },
+      { en: "emerge", ja: "現れる" },
+      { en: "emphasize", ja: "強調する" },
+      { en: "enable", ja: "可能にする" },
+      { en: "encounter", ja: "遭遇する" },
+      { en: "enhance", ja: "高める" },
+      { en: "ensure", ja: "確実にする" },
+      { en: "equivalent", ja: "同等の" },
+      { en: "establish", ja: "確立する" },
+      { en: "estimate", ja: "見積もる" },
+      { en: "evident", ja: "明白な" },
+      { en: "evolve", ja: "進化する" },
+      { en: "exhibit", ja: "示す" },
+      { en: "expand", ja: "拡大する" },
+      { en: "explicit", ja: "明確な" },
+      { en: "exploit", ja: "活用する" },
+      { en: "facilitate", ja: "促進する" },
+      { en: "fundamental", ja: "基本的な" },
+      { en: "generate", ja: "生み出す" },
+      { en: "inevitable", ja: "避けられない" },
+      { en: "infer", ja: "推論する" },
+      { en: "justify", ja: "正当化する" },
+      { en: "maintain", ja: "維持する" }
+    ];
+
+    const enEl = document.getElementById("en");
+    const jaEl = document.getElementById("ja");
+    const countEl = document.getElementById("count");
+    const countdownEl = document.getElementById("countdown");
+    const wrapEl = document.getElementById("wordWrap");
+    const nextBtn = document.getElementById("nextBtn");
+    const shuffleBtn = document.getElementById("shuffleBtn");
+
+    let order = [];
+    let index = 0;
+    let secondsLeft = 10;
+
+    function shuffleIndices() {
+      order = Array.from({ length: words.length }, (_, i) => i);
+      for (let i = order.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [order[i], order[j]] = [order[j], order[i]];
+      }
+      index = 0;
+    }
+
+    function showWord() {
+      if (index >= order.length) {
+        shuffleIndices();
+      }
+
+      const w = words[order[index]];
+      wrapEl.classList.add("fade");
+
+      setTimeout(() => {
+        enEl.textContent = w.en;
+        jaEl.textContent = w.ja;
+        countEl.textContent = `${index + 1} / ${words.length}`;
+        wrapEl.classList.remove("fade");
+      }, 180);
+
+      index += 1;
+      secondsLeft = 10;
+      countdownEl.textContent = secondsLeft;
+    }
+
+    function nextWord() {
+      showWord();
+    }
+
+    function reshuffle() {
+      shuffleIndices();
+      showWord();
+    }
+
+    nextBtn.addEventListener("click", nextWord);
+    shuffleBtn.addEventListener("click", reshuffle);
+
+    shuffleIndices();
+    showWord();
+
+    setInterval(() => {
+      secondsLeft -= 1;
+      if (secondsLeft <= 0) {
+        showWord();
+      } else {
+        countdownEl.textContent = secondsLeft;
+      }
+    }, 1000);
+  </script>
+</body>
+</html>

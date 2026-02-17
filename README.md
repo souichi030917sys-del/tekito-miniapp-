@@ -28,10 +28,12 @@ git push -u origin main
 
 3. GitHub で Pages を有効化
 - リポジトリの `Settings` -> `Pages`
-- `Build and deployment` の `Source` を `Deploy from a branch`
-- `Branch` を `main`、`/ (root)` にして保存
+- `Build and deployment` の `Source` を `GitHub Actions` にして保存
 
-4. 公開URL
+4. Actions のデプロイ完了を待つ
+- `Actions` タブで `Deploy static site to Pages` が成功するまで待機（通常1-3分）
+
+5. 公開URL
 - 数分後に以下で公開されます:  
 `https://souichi030917sys-del.github.io/tekito-miniapp-/`
 

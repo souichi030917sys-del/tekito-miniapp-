@@ -44,8 +44,10 @@
 
     h1 {
       margin: 0;
-      font-size: clamp(24px, 4vw, 38px);
-      letter-spacing: 0.02em;
+      font-size: clamp(26px, 4.4vw, 42px);
+      letter-spacing: 0.03em;
+      line-height: 1.1;
+      color: #0d3028;
     }
 
     .subtitle {
@@ -96,9 +98,12 @@
       font-size: 13px;
     }
 
-    .quiz,
-    .controls {
+    .quiz {
       margin-top: 14px;
+    }
+
+    .action-row {
+      margin-top: 10px;
       display: flex;
       gap: 10px;
       flex-wrap: wrap;
@@ -122,13 +127,40 @@
       font-size: 14px;
       cursor: pointer;
       font-weight: 700;
-      transition: transform 0.15s ease;
+      transition: transform 0.15s ease, box-shadow 0.2s ease, filter 0.2s ease;
     }
 
     button:hover { transform: translateY(-1px); }
+    button:focus-visible {
+      outline: 3px solid #111;
+      outline-offset: 2px;
+    }
 
-    .primary { background: var(--accent); color: #fff; }
-    .secondary { background: #ede5d9; color: #5b422b; }
+    .primary {
+      background: #111;
+      color: #ffef00;
+      font-size: 18px;
+      padding: 14px 22px;
+      min-width: 220px;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+    }
+
+    .primary:hover {
+      filter: brightness(1.08);
+      box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35);
+    }
+
+    .secondary {
+      background: #0f6b5e;
+      color: #fff;
+      padding: 11px 16px;
+    }
+
+    .tertiary {
+      background: #ede5d9;
+      color: #5b422b;
+      padding: 10px 14px;
+    }
 
     .result {
       min-height: 1.4em;
@@ -175,15 +207,16 @@
 
     @media (max-width: 560px) {
       .card { padding: 16px; }
-      .quiz, .controls { flex-direction: column; align-items: stretch; }
+      .action-row { flex-direction: column; align-items: stretch; }
       button { width: 100%; }
+      .primary { min-width: 0; }
       input[type="text"] { min-width: 0; }
     }
   </style>
 </head>
 <body>
   <main class="card">
-    <h1>Word Sprint 1000</h1>
+    <h1>大学受験AI英単語1,000</h1>
     <p class="subtitle">大学受験頻出語を想定した1000語（動詞300 / 名詞400 / 形容詞・副詞300）</p>
 
     <section class="word-wrap">
@@ -200,17 +233,20 @@
 
     <div class="quiz">
       <input id="answer" type="text" placeholder="意味を日本語で入力" maxlength="50" />
+    </div>
+
+    <div class="action-row">
       <button id="checkBtn" class="primary">答え合わせ</button>
       <button id="showBtn" class="secondary">答えを表示</button>
     </div>
 
     <p id="result" class="result"></p>
 
-    <div class="controls">
-      <button id="nextBtn" class="primary">次の単語</button>
-      <button id="explainBtn" class="secondary">解説を表示</button>
-      <button id="shuffleBtn" class="secondary">順番シャッフル</button>
-      <button id="resetBtn" class="secondary">成績リセット</button>
+    <div class="action-row">
+      <button id="nextBtn" class="tertiary">次の単語</button>
+      <button id="explainBtn" class="tertiary">解説を表示</button>
+      <button id="shuffleBtn" class="tertiary">順番シャッフル</button>
+      <button id="resetBtn" class="tertiary">成績リセット</button>
     </div>
 
     <section id="explain" class="explain">

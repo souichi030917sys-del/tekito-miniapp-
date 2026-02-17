@@ -1,7 +1,32 @@
-﻿# Word Sprint 100
+﻿# Word Sprint 1000
 
-英単語100語を学べるシンプルな学習サイトです。  
-`index.html` をそのまま GitHub Pages に公開できます。
+大学受験向け英単語を学習するWebアプリです。  
+現在の収録は **1000語**（動詞300 / 名詞400 / 形容詞・副詞300）。
+
+## 主な機能
+
+- 英単語の出題
+- 日本語訳の入力と答え合わせ
+- 複数の意味表示
+- 解説ボタンで以下を表示
+  - 品詞
+  - 複数意味
+  - 用法メモ
+  - 例文（EN/JA）
+- 正答率の保存（localStorage）
+
+## データ生成
+
+語彙データは `Oxford 5000` を元に抽出し、日本語訳は `ejdict` を参照して生成しています。
+
+```powershell
+cd C:\Users\httbs\tekito-miniapp
+npm.cmd install
+npm.cmd run generate
+```
+
+生成先:
+- `data/vocab1000.js`
 
 ## ローカル確認
 
@@ -10,37 +35,7 @@ cd C:\Users\httbs\tekito-miniapp
 start index.html
 ```
 
-## 第三者にも公開する手順（GitHub Pages）
+## 公開URL
 
-1. リモートを設定
-
-```powershell
-git remote add origin https://github.com/souichi030917sys-del/tekito-miniapp-.git
-```
-
-2. 変更をコミットしてプッシュ
-
-```powershell
-git add .
-git commit -m "Create public vocabulary study site"
-git push -u origin main
-```
-
-3. GitHub で Pages を有効化
-- リポジトリの `Settings` -> `Pages`
-- `Build and deployment` の `Source` を `GitHub Actions` にして保存
-
-4. Actions のデプロイ完了を待つ
-- `Actions` タブで `Deploy static site to Pages` が成功するまで待機（通常1-3分）
-
-5. 公開URL
-- 数分後に以下で公開されます:  
-`https://souichi030917sys-del.github.io/tekito-miniapp-/`
-
-## 機能
-
-- 英単語の表示
-- 日本語訳の入力と答え合わせ
-- 答え表示
-- 単語順シャッフル
-- 正答率の保存（localStorage）
+GitHub Pages:
+- `https://souichi030917sys-del.github.io/tekito-miniapp-/`

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Word Sprint 100</title>
+  <title>Word Sprint 1000</title>
   <style>
     :root {
       --bg: #f6f3eb;
@@ -34,7 +34,7 @@
     }
 
     .card {
-      width: min(760px, 100%);
+      width: min(820px, 100%);
       background: var(--panel);
       border: 1px solid var(--line);
       border-radius: 20px;
@@ -55,15 +55,15 @@
     }
 
     .word-wrap {
-      margin: 20px 0 14px;
+      margin: 18px 0 14px;
       border: 1px solid var(--line);
       border-radius: 16px;
       padding: 22px;
       background: #fff;
-      min-height: 180px;
+      min-height: 140px;
       display: grid;
       align-content: center;
-      gap: 10px;
+      gap: 8px;
     }
 
     .en {
@@ -72,13 +72,6 @@
       font-weight: 800;
       color: var(--accent);
       word-break: break-word;
-    }
-
-    .ja {
-      font-size: clamp(22px, 5vw, 34px);
-      color: var(--accent-2);
-      font-weight: 700;
-      min-height: 1.3em;
     }
 
     .meta {
@@ -103,8 +96,8 @@
       font-size: 13px;
     }
 
-    .controls,
-    .quiz {
+    .quiz,
+    .controls {
       margin-top: 14px;
       display: flex;
       gap: 10px;
@@ -114,7 +107,7 @@
 
     input[type="text"] {
       flex: 1;
-      min-width: 220px;
+      min-width: 240px;
       border: 1px solid var(--line);
       border-radius: 12px;
       padding: 10px 12px;
@@ -141,12 +134,46 @@
       min-height: 1.4em;
       font-size: 14px;
       font-weight: 700;
+      margin-top: 10px;
     }
 
     .ok { color: var(--ok); }
     .ng { color: var(--ng); }
 
-    @media (max-width: 520px) {
+    .explain {
+      margin-top: 14px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+      padding: 14px;
+      display: none;
+    }
+
+    .explain.visible { display: block; }
+
+    .explain h2 {
+      margin: 0 0 8px;
+      font-size: 16px;
+      color: var(--accent-2);
+    }
+
+    .explain p,
+    .explain li {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .explain ul {
+      margin: 6px 0 0;
+      padding-left: 18px;
+    }
+
+    .section {
+      margin-top: 10px;
+    }
+
+    @media (max-width: 560px) {
       .card { padding: 16px; }
       .quiz, .controls { flex-direction: column; align-items: stretch; }
       button { width: 100%; }
@@ -156,150 +183,80 @@
 </head>
 <body>
   <main class="card">
-    <h1>Word Sprint 100</h1>
-    <p class="subtitle">英単語を見て意味を答える練習サイト（100語）</p>
+    <h1>Word Sprint 1000</h1>
+    <p class="subtitle">大学受験頻出語を想定した1000語（動詞300 / 名詞400 / 形容詞・副詞300）</p>
 
     <section class="word-wrap">
       <div id="en" class="en">loading...</div>
-      <div id="ja" class="ja"></div>
     </section>
 
     <div class="meta">
-      <div><span class="badge">収録: 100語</span></div>
+      <div><span id="setInfo" class="badge">読み込み中...</span></div>
       <div>
-        <span id="count">1 / 100</span>
+        <span id="count">1 / 1000</span>
         <span> | 正答率 <strong id="accuracy">0%</strong></span>
       </div>
     </div>
 
     <div class="quiz">
-      <input id="answer" type="text" placeholder="意味を日本語で入力（例: 捨てる）" maxlength="30" />
+      <input id="answer" type="text" placeholder="意味を日本語で入力" maxlength="50" />
       <button id="checkBtn" class="primary">答え合わせ</button>
       <button id="showBtn" class="secondary">答えを表示</button>
     </div>
+
     <p id="result" class="result"></p>
 
     <div class="controls">
       <button id="nextBtn" class="primary">次の単語</button>
+      <button id="explainBtn" class="secondary">解説を表示</button>
       <button id="shuffleBtn" class="secondary">順番シャッフル</button>
       <button id="resetBtn" class="secondary">成績リセット</button>
     </div>
+
+    <section id="explain" class="explain">
+      <h2>解説</h2>
+      <p id="partLine"></p>
+
+      <div class="section">
+        <p><strong>複数の意味</strong></p>
+        <ul id="meaningList"></ul>
+      </div>
+
+      <div class="section">
+        <p><strong>用法メモ</strong></p>
+        <ul id="usageList"></ul>
+      </div>
+
+      <div class="section">
+        <p><strong>例文</strong></p>
+        <p id="exampleEn"></p>
+        <p id="exampleJa"></p>
+      </div>
+    </section>
   </main>
 
+  <script src="data/vocab1000.js"></script>
   <script>
-    const words = [
-      { en: "abandon", ja: "捨てる" },
-      { en: "absorb", ja: "吸収する" },
-      { en: "abstract", ja: "抽象的な" },
-      { en: "accompany", ja: "伴う" },
-      { en: "accomplish", ja: "成し遂げる" },
-      { en: "accumulate", ja: "蓄積する" },
-      { en: "accurate", ja: "正確な" },
-      { en: "adapt", ja: "適応する" },
-      { en: "adequate", ja: "十分な" },
-      { en: "adjust", ja: "調整する" },
-      { en: "admit", ja: "認める" },
-      { en: "advocate", ja: "主張する" },
-      { en: "affect", ja: "影響を与える" },
-      { en: "aggregate", ja: "総計の" },
-      { en: "allocate", ja: "割り当てる" },
-      { en: "alter", ja: "変える" },
-      { en: "ambiguous", ja: "曖昧な" },
-      { en: "anticipate", ja: "予期する" },
-      { en: "apparent", ja: "明らかな" },
-      { en: "approach", ja: "取り組む" },
-      { en: "appropriate", ja: "適切な" },
-      { en: "approximate", ja: "おおよその" },
-      { en: "arise", ja: "生じる" },
-      { en: "artificial", ja: "人工的な" },
-      { en: "assess", ja: "評価する" },
-      { en: "assume", ja: "仮定する" },
-      { en: "attain", ja: "達成する" },
-      { en: "attribute", ja: "〜のせいにする" },
-      { en: "aware", ja: "気づいている" },
-      { en: "beneficial", ja: "有益な" },
-      { en: "brief", ja: "簡潔な" },
-      { en: "calculate", ja: "計算する" },
-      { en: "capacity", ja: "能力" },
-      { en: "cease", ja: "やめる" },
-      { en: "circumstance", ja: "状況" },
-      { en: "cite", ja: "引用する" },
-      { en: "civilization", ja: "文明" },
-      { en: "clarify", ja: "明確にする" },
-      { en: "coherent", ja: "一貫した" },
-      { en: "coincide", ja: "一致する" },
-      { en: "collapse", ja: "崩壊する" },
-      { en: "combine", ja: "結合する" },
-      { en: "commence", ja: "開始する" },
-      { en: "compel", ja: "強いる" },
-      { en: "compensate", ja: "補償する" },
-      { en: "comprehensive", ja: "包括的な" },
-      { en: "conceal", ja: "隠す" },
-      { en: "concentrate", ja: "集中する" },
-      { en: "conclude", ja: "結論づける" },
-      { en: "concrete", ja: "具体的な" },
-      { en: "conduct", ja: "行う" },
-      { en: "confine", ja: "制限する" },
-      { en: "confirm", ja: "確認する" },
-      { en: "conscious", ja: "意識している" },
-      { en: "consequence", ja: "結果" },
-      { en: "considerable", ja: "かなりの" },
-      { en: "consist", ja: "成る" },
-      { en: "constant", ja: "絶え間ない" },
-      { en: "consume", ja: "消費する" },
-      { en: "contemporary", ja: "現代の" },
-      { en: "contradict", ja: "矛盾する" },
-      { en: "contribute", ja: "貢献する" },
-      { en: "conventional", ja: "従来の" },
-      { en: "convert", ja: "変換する" },
-      { en: "convince", ja: "納得させる" },
-      { en: "crucial", ja: "極めて重要な" },
-      { en: "cultivate", ja: "養う" },
-      { en: "decline", ja: "減少する" },
-      { en: "deduce", ja: "推論する" },
-      { en: "define", ja: "定義する" },
-      { en: "demonstrate", ja: "実証する" },
-      { en: "derive", ja: "引き出す" },
-      { en: "despite", ja: "〜にもかかわらず" },
-      { en: "detect", ja: "見つける" },
-      { en: "diminish", ja: "減少する" },
-      { en: "distribute", ja: "分配する" },
-      { en: "domestic", ja: "国内の" },
-      { en: "eliminate", ja: "取り除く" },
-      { en: "emerge", ja: "現れる" },
-      { en: "emphasize", ja: "強調する" },
-      { en: "enable", ja: "可能にする" },
-      { en: "encounter", ja: "遭遇する" },
-      { en: "enhance", ja: "高める" },
-      { en: "ensure", ja: "確実にする" },
-      { en: "equivalent", ja: "同等の" },
-      { en: "establish", ja: "確立する" },
-      { en: "estimate", ja: "見積もる" },
-      { en: "evident", ja: "明白な" },
-      { en: "evolve", ja: "進化する" },
-      { en: "exhibit", ja: "示す" },
-      { en: "expand", ja: "拡大する" },
-      { en: "explicit", ja: "明確な" },
-      { en: "exploit", ja: "活用する" },
-      { en: "facilitate", ja: "促進する" },
-      { en: "fundamental", ja: "基本的な" },
-      { en: "generate", ja: "生み出す" },
-      { en: "inevitable", ja: "避けられない" },
-      { en: "infer", ja: "推論する" },
-      { en: "justify", ja: "正当化する" },
-      { en: "maintain", ja: "維持する" }
-    ];
+    const entries = Array.isArray(window.VOCAB_DATA) ? window.VOCAB_DATA : [];
 
     const enEl = document.getElementById("en");
-    const jaEl = document.getElementById("ja");
     const answerEl = document.getElementById("answer");
     const resultEl = document.getElementById("result");
     const countEl = document.getElementById("count");
     const accuracyEl = document.getElementById("accuracy");
+    const setInfoEl = document.getElementById("setInfo");
+
+    const explainEl = document.getElementById("explain");
+    const partLineEl = document.getElementById("partLine");
+    const meaningListEl = document.getElementById("meaningList");
+    const usageListEl = document.getElementById("usageList");
+    const exampleEnEl = document.getElementById("exampleEn");
+    const exampleJaEl = document.getElementById("exampleJa");
 
     const checkBtn = document.getElementById("checkBtn");
     const showBtn = document.getElementById("showBtn");
     const nextBtn = document.getElementById("nextBtn");
+    const explainBtn = document.getElementById("explainBtn");
     const shuffleBtn = document.getElementById("shuffleBtn");
     const resetBtn = document.getElementById("resetBtn");
 
@@ -307,20 +264,34 @@
     let index = 0;
     let current = null;
 
-    const score = JSON.parse(localStorage.getItem("wordSprintScore") || "{\"total\":0,\"correct\":0}");
+    const score = JSON.parse(localStorage.getItem("wordSprint1000Score") || "{\"total\":0,\"correct\":0}");
 
     function normalize(text) {
-      return text.trim().replace(/\s+/g, "");
+      return String(text || "").trim().replace(/\s+/g, "").replace(/[・'"「」『』（）()]/g, "");
     }
 
     function renderAccuracy() {
       const rate = score.total === 0 ? 0 : Math.round((score.correct / score.total) * 100);
       accuracyEl.textContent = `${rate}%`;
-      localStorage.setItem("wordSprintScore", JSON.stringify(score));
+      localStorage.setItem("wordSprint1000Score", JSON.stringify(score));
     }
 
-    function shuffleIndices() {
-      order = Array.from({ length: words.length }, (_, i) => i);
+    function partLabel(part) {
+      if (part === "verb") return "動詞";
+      if (part === "noun") return "名詞";
+      return "形容詞・副詞";
+    }
+
+    function buildSetInfo() {
+      const counts = entries.reduce((acc, e) => {
+        acc[e.part] = (acc[e.part] || 0) + 1;
+        return acc;
+      }, {});
+      setInfoEl.textContent = `動詞 ${counts.verb || 0} / 名詞 ${counts.noun || 0} / 形容詞・副詞 ${counts.modifier || 0}`;
+    }
+
+    function shuffleOrder() {
+      order = Array.from({ length: entries.length }, (_, i) => i);
       for (let i = order.length - 1; i > 0; i -= 1) {
         const j = Math.floor(Math.random() * (i + 1));
         [order[i], order[j]] = [order[j], order[i]];
@@ -328,35 +299,69 @@
       index = 0;
     }
 
+    function fillList(element, items) {
+      element.innerHTML = "";
+      items.forEach((item) => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        element.appendChild(li);
+      });
+    }
+
+    function renderExplanation() {
+      if (!current) return;
+
+      partLineEl.textContent = `品詞: ${partLabel(current.part)}`;
+      fillList(meaningListEl, current.meanings || []);
+      fillList(usageListEl, current.usage || []);
+
+      exampleEnEl.textContent = `EN: ${current.example?.en || ""}`;
+      exampleJaEl.textContent = `JA: ${current.example?.ja || ""}`;
+    }
+
     function showWord() {
-      if (index >= order.length) {
-        shuffleIndices();
+      if (entries.length === 0) {
+        enEl.textContent = "データ読み込みに失敗しました";
+        return;
       }
 
-      current = words[order[index]];
+      if (index >= order.length) shuffleOrder();
+
+      current = entries[order[index]];
       index += 1;
 
-      enEl.textContent = current.en;
-      jaEl.textContent = "";
+      enEl.textContent = current.word;
       answerEl.value = "";
       resultEl.textContent = "";
       resultEl.className = "result";
-      countEl.textContent = `${index} / ${words.length}`;
+      countEl.textContent = `${index} / ${entries.length}`;
+
+      renderExplanation();
+      explainEl.classList.remove("visible");
+      explainBtn.textContent = "解説を表示";
       answerEl.focus();
+    }
+
+    function isCorrectAnswer(input, meanings) {
+      const ans = normalize(input);
+      if (!ans) return false;
+      return meanings.some((m) => {
+        const key = normalize(m);
+        return key.includes(ans) || ans.includes(key);
+      });
     }
 
     function checkAnswer() {
       if (!current) return;
-
       score.total += 1;
-      const ok = normalize(answerEl.value) === normalize(current.ja);
 
+      const ok = isCorrectAnswer(answerEl.value, current.meanings || []);
       if (ok) {
         score.correct += 1;
-        resultEl.textContent = `正解: ${current.ja}`;
+        resultEl.textContent = `正解: ${current.meanings[0]}`;
         resultEl.className = "result ok";
       } else {
-        resultEl.textContent = `不正解: 正しくは「${current.ja}」`;
+        resultEl.textContent = `不正解: ${current.meanings.join(" / ")}`;
         resultEl.className = "result ng";
       }
 
@@ -365,16 +370,21 @@
 
     function revealAnswer() {
       if (!current) return;
-      jaEl.textContent = current.ja;
-      resultEl.textContent = `答え: ${current.ja}`;
+      resultEl.textContent = `答え: ${current.meanings.join(" / ")}`;
       resultEl.className = "result";
     }
 
     checkBtn.addEventListener("click", checkAnswer);
     showBtn.addEventListener("click", revealAnswer);
     nextBtn.addEventListener("click", showWord);
+
+    explainBtn.addEventListener("click", () => {
+      const visible = explainEl.classList.toggle("visible");
+      explainBtn.textContent = visible ? "解説を隠す" : "解説を表示";
+    });
+
     shuffleBtn.addEventListener("click", () => {
-      shuffleIndices();
+      shuffleOrder();
       showWord();
     });
 
@@ -387,12 +397,11 @@
     });
 
     answerEl.addEventListener("keydown", (event) => {
-      if (event.key === "Enter") {
-        checkAnswer();
-      }
+      if (event.key === "Enter") checkAnswer();
     });
 
-    shuffleIndices();
+    buildSetInfo();
+    shuffleOrder();
     showWord();
     renderAccuracy();
   </script>

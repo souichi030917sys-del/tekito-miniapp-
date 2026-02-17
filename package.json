@@ -1,0 +1,22 @@
+{
+  "name": "tekito-miniapp",
+  "version": "1.0.0",
+  "description": "University exam vocabulary site with 1000 words",
+  "scripts": {
+    "generate": "node tools/generate-vocab-data.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souichi030917sys-del/tekito-miniapp-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souichi030917sys-del/tekito-miniapp-/issues"
+  },
+  "homepage": "https://github.com/souichi030917sys-del/tekito-miniapp-#readme",
+  "dependencies": {
+    "ejdict": "^1.4.2"
+  }
+}

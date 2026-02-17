@@ -2,6 +2,7 @@ window.VOCAB_DATA = [
   {
     "word": "abolish",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "制度・習慣・規則など廃止する",
       "やめる"
@@ -19,6 +20,7 @@ window.VOCAB_DATA = [
   {
     "word": "abuse",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "UC乱用",
       "悪用《+of+名》",
@@ -37,6 +39,7 @@ window.VOCAB_DATA = [
   {
     "word": "accelerate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘の'速度を速める",
       "加速する",
@@ -55,6 +58,7 @@ window.VOCAB_DATA = [
   {
     "word": "accumulate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…蓄積する",
       "ためる",
@@ -73,6 +77,7 @@ window.VOCAB_DATA = [
   {
     "word": "adhere",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "物がくっつく",
       "付着する",
@@ -91,6 +96,7 @@ window.VOCAB_DATA = [
   {
     "word": "administer",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…治める",
       "管理運営する",
@@ -109,6 +115,7 @@ window.VOCAB_DATA = [
   {
     "word": "advocate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "考え・主義・政策など弁護して言う",
       "主唱する",
@@ -127,6 +134,7 @@ window.VOCAB_DATA = [
   {
     "word": "alert",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "油断のない",
       "用心深い",
@@ -145,6 +153,7 @@ window.VOCAB_DATA = [
   {
     "word": "align",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…一列に並べる",
       "整列させる",
@@ -163,6 +172,7 @@ window.VOCAB_DATA = [
   {
     "word": "allege",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…主張する",
       "申し立てる"
@@ -180,6 +190,7 @@ window.VOCAB_DATA = [
   {
     "word": "allocate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…配分する",
       "割り当てる《+名+to+名》"
@@ -197,6 +208,7 @@ window.VOCAB_DATA = [
   {
     "word": "amend",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…改める",
       "改良する",
@@ -215,6 +227,7 @@ window.VOCAB_DATA = [
   {
     "word": "applaud",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "拍手かっさいする",
       "拍手してほめる",
@@ -233,6 +246,7 @@ window.VOCAB_DATA = [
   {
     "word": "appoint",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "《文》日時・場所など決める《+名+for+名》",
       "人任命する"
@@ -250,6 +264,7 @@ window.VOCAB_DATA = [
   {
     "word": "arm",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "C《通例複数形で》武器",
       "兵器",
@@ -268,6 +283,7 @@ window.VOCAB_DATA = [
   {
     "word": "articulate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "はっきり話される",
       "分節的な",
@@ -286,6 +302,7 @@ window.VOCAB_DATA = [
   {
     "word": "aspire",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "大望を抱く",
       "あこがれる",
@@ -304,6 +321,7 @@ window.VOCAB_DATA = [
   {
     "word": "assault",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "的な意で)襲うこと",
       "強襲",
@@ -322,6 +340,7 @@ window.VOCAB_DATA = [
   {
     "word": "assemble",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人・物集める",
       "集合させる",
@@ -340,6 +359,7 @@ window.VOCAB_DATA = [
   {
     "word": "assert",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…断言する",
       "力説する"
@@ -357,6 +377,7 @@ window.VOCAB_DATA = [
   {
     "word": "attain",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "目的・望みなど達成する",
       "獲得する",
@@ -375,6 +396,7 @@ window.VOCAB_DATA = [
   {
     "word": "attribute",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘の'原因があるとする《+名+to+名》",
       "ある特質・性格など‘が'備わっていると考える《+名+to+名》",
@@ -393,6 +415,7 @@ window.VOCAB_DATA = [
   {
     "word": "authorize",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘に'権限を与える《+名人+to do》",
       "物事正式に認可する",
@@ -411,6 +434,7 @@ window.VOCAB_DATA = [
   {
     "word": "await",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人が…待つ",
       "物・事が人待ちうける",
@@ -429,6 +453,7 @@ window.VOCAB_DATA = [
   {
     "word": "bat",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "まぶたぱちくりする",
       "まぶたぱちくりする（文脈依存）"
@@ -446,6 +471,7 @@ window.VOCAB_DATA = [
   {
     "word": "betray",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "国・味団など裏切る・売る《+名+to+名》",
       "人の信頼・期体など‘に'そむく",
@@ -464,6 +490,7 @@ window.VOCAB_DATA = [
   {
     "word": "bind",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…しばる",
       "束ねる《+up+名",
@@ -482,6 +509,7 @@ window.VOCAB_DATA = [
   {
     "word": "blast",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "C一吹き",
       "一陣の風",
@@ -500,6 +528,7 @@ window.VOCAB_DATA = [
   {
     "word": "bleed",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "出血する",
       "血を流す",
@@ -518,6 +547,7 @@ window.VOCAB_DATA = [
   {
     "word": "blend",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…混ぜ合わせる",
       "…混ぜる《+名+with+名》",
@@ -536,6 +566,7 @@ window.VOCAB_DATA = [
   {
     "word": "bless",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "神などが(…を人‘に'授ける",
       "恵む《名人+with+名》",
@@ -554,6 +585,7 @@ window.VOCAB_DATA = [
   {
     "word": "boast",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "自慢する",
       "鼻にかける《+about+名》",
@@ -572,6 +604,7 @@ window.VOCAB_DATA = [
   {
     "word": "bounce",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "ボールなどがはずむ",
       "はる返る",
@@ -590,6 +623,7 @@ window.VOCAB_DATA = [
   {
     "word": "bow",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "《時に複数形で",
       "単数扱い》先端部",
@@ -608,6 +642,7 @@ window.VOCAB_DATA = [
   {
     "word": "breach",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "破ること",
       "破棄",
@@ -626,6 +661,7 @@ window.VOCAB_DATA = [
   {
     "word": "breed",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "動物が子を生む",
       "繁殖する",
@@ -644,6 +680,7 @@ window.VOCAB_DATA = [
   {
     "word": "burst",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "破裂する",
       "爆発する",
@@ -662,6 +699,7 @@ window.VOCAB_DATA = [
   {
     "word": "carve",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…刻んで作る",
       "彫る",
@@ -680,6 +718,7 @@ window.VOCAB_DATA = [
   {
     "word": "cater",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "食物を調達する",
       "料理をまかなう《+for+名》",
@@ -698,6 +737,7 @@ window.VOCAB_DATA = [
   {
     "word": "cease",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "やむ",
       "終わる",
@@ -716,6 +756,7 @@ window.VOCAB_DATA = [
   {
     "word": "characterize",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘の'特性を示す",
       "特色づける",
@@ -734,6 +775,7 @@ window.VOCAB_DATA = [
   {
     "word": "circulate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "血液・空気などが循環する",
       "巡る",
@@ -752,6 +794,7 @@ window.VOCAB_DATA = [
   {
     "word": "cling",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "くっつく",
       "くっついて離れない",
@@ -770,6 +813,7 @@ window.VOCAB_DATA = [
   {
     "word": "coincide",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "同時に起こる《+with+名》",
       "人・性格・意見などが一致する",
@@ -788,6 +832,7 @@ window.VOCAB_DATA = [
   {
     "word": "collaborate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "共同して働く",
       "共同研究する《+with+名+in+名》",
@@ -806,6 +851,7 @@ window.VOCAB_DATA = [
   {
     "word": "combat",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "戦い",
       "戦闘",
@@ -824,6 +870,7 @@ window.VOCAB_DATA = [
   {
     "word": "commence",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…始める",
       "‘に'着手する",
@@ -842,6 +889,7 @@ window.VOCAB_DATA = [
   {
     "word": "compel",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "《compel+名+to do》人‘に'しいる",
       "…強要する《+名+from+名人》"
@@ -859,6 +907,7 @@ window.VOCAB_DATA = [
   {
     "word": "compensate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘に'補償する《+名+for+名》",
       "損失など償う",
@@ -877,6 +926,7 @@ window.VOCAB_DATA = [
   {
     "word": "compile",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "資料などまとめる",
       "辞書など編集する"
@@ -894,6 +944,7 @@ window.VOCAB_DATA = [
   {
     "word": "complement",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "補う物《+of+名》",
       "補語",
@@ -912,6 +963,7 @@ window.VOCAB_DATA = [
   {
     "word": "comply",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "従う",
       "応ずる《+with+名》"
@@ -929,6 +981,7 @@ window.VOCAB_DATA = [
   {
     "word": "compromise",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "UC妥協",
       "和解",
@@ -947,6 +1000,7 @@ window.VOCAB_DATA = [
   {
     "word": "compute",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…計算する",
       "見積もる",
@@ -965,6 +1019,7 @@ window.VOCAB_DATA = [
   {
     "word": "conceal",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "物隠す",
       "…秘密にする《+from+名》"
@@ -982,6 +1037,7 @@ window.VOCAB_DATA = [
   {
     "word": "concede",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…真実と認める",
       "《concede+名間+名直=concede+名+to+名》権利など人‘に'与える",
@@ -1000,6 +1056,7 @@ window.VOCAB_DATA = [
   {
     "word": "conceive",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "考え",
       "目的など心に抱く",
@@ -1018,6 +1075,7 @@ window.VOCAB_DATA = [
   {
     "word": "condemn",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人・過失など非難する",
       "とがめる《+名人+for+名》",
@@ -1036,6 +1094,7 @@ window.VOCAB_DATA = [
   {
     "word": "confer",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "相談する",
       "協議する《+with+名+on+名》",
@@ -1054,6 +1113,7 @@ window.VOCAB_DATA = [
   {
     "word": "confine",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…制限する",
       "限る《+名+to+名》",
@@ -1072,6 +1132,7 @@ window.VOCAB_DATA = [
   {
     "word": "confront",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人が危険・問題・相手など‘に'立ち向かう",
       "ぶっかっていく",
@@ -1090,6 +1151,7 @@ window.VOCAB_DATA = [
   {
     "word": "congratulate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘に'お祝いを言う",
       "喜びを述べる《+名+on+名》"
@@ -1107,6 +1169,7 @@ window.VOCAB_DATA = [
   {
     "word": "conquer",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "敵の領土征服する",
       "制圧する",
@@ -1125,6 +1188,7 @@ window.VOCAB_DATA = [
   {
     "word": "consent",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "同意する",
       "承諾する《+to+名》",
@@ -1143,6 +1207,7 @@ window.VOCAB_DATA = [
   {
     "word": "conserve",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…保存する",
       "保護する",
@@ -1161,6 +1226,7 @@ window.VOCAB_DATA = [
   {
     "word": "consolidate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "組織など固める",
       "地位・勢力・知識など強化する",
@@ -1179,6 +1245,7 @@ window.VOCAB_DATA = [
   {
     "word": "constitute",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "《しばしば受動体で》物構成する",
       "人の本質・体質作っている",
@@ -1197,6 +1264,7 @@ window.VOCAB_DATA = [
   {
     "word": "contemplate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…よく考える",
       "熟考する",
@@ -1215,6 +1283,7 @@ window.VOCAB_DATA = [
   {
     "word": "contend",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "争う",
       "戦う《+against+名+for+名》",
@@ -1233,6 +1302,7 @@ window.VOCAB_DATA = [
   {
     "word": "convict",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘に'有罪を宣告する《+名+of+名》",
       "《文》《しばしば受動態で》…に悟らせる《+名+of+名》",
@@ -1251,6 +1321,7 @@ window.VOCAB_DATA = [
   {
     "word": "cooperate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "協力する",
       "共同する"
@@ -1268,6 +1339,7 @@ window.VOCAB_DATA = [
   {
     "word": "coordinate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "対等の",
       "等位の",
@@ -1286,6 +1358,7 @@ window.VOCAB_DATA = [
   {
     "word": "correlate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘に'相互関係を持たせる",
       "…関連させる《+名+with+名》",
@@ -1304,6 +1377,7 @@ window.VOCAB_DATA = [
   {
     "word": "correspond",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "一致する",
       "符合する",
@@ -1322,6 +1396,7 @@ window.VOCAB_DATA = [
   {
     "word": "counter",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "反対の",
       "逆の",
@@ -1340,6 +1415,7 @@ window.VOCAB_DATA = [
   {
     "word": "craft",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "U技能",
       "技巧",
@@ -1358,6 +1434,7 @@ window.VOCAB_DATA = [
   {
     "word": "crawl",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "はう",
       "はって進む",
@@ -1376,6 +1453,7 @@ window.VOCAB_DATA = [
   {
     "word": "creep",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "動物・昆虫などがはう",
       "赤ん坊などが腹ばいにはう",
@@ -1394,6 +1472,7 @@ window.VOCAB_DATA = [
   {
     "word": "crush",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…押しつぶす",
       "ぺしゃんこにする《+up+名",
@@ -1412,6 +1491,7 @@ window.VOCAB_DATA = [
   {
     "word": "cultivate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "土地耕す",
       "作物栽培する",
@@ -1430,6 +1510,7 @@ window.VOCAB_DATA = [
   {
     "word": "deem",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘と'思う",
       "…‘と'思う（文脈依存）"
@@ -1447,6 +1528,7 @@ window.VOCAB_DATA = [
   {
     "word": "defy",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "《defy+名+to do》人に挑む",
       "挑戦する",
@@ -1465,6 +1547,7 @@ window.VOCAB_DATA = [
   {
     "word": "denounce",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘を'非難する",
       "攻撃する",
@@ -1483,6 +1566,7 @@ window.VOCAB_DATA = [
   {
     "word": "depict",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'描き表す",
       "描写する"
@@ -1500,6 +1584,7 @@ window.VOCAB_DATA = [
   {
     "word": "deploy",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "部隊など‘を'配置する",
       "部隊などが配置につく"
@@ -1517,6 +1602,7 @@ window.VOCAB_DATA = [
   {
     "word": "deposit",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "貴重品など‘を'預ける",
       "金‘を'預金する",
@@ -1535,6 +1621,7 @@ window.VOCAB_DATA = [
   {
     "word": "deprive",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘から'奪う《+名人+of+名》",
       "人‘から'奪う《+名人+of+名》（文脈依存）"
@@ -1552,6 +1639,7 @@ window.VOCAB_DATA = [
   {
     "word": "descend",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "下る",
       "降りる《+from+名+to+名》",
@@ -1570,6 +1658,7 @@ window.VOCAB_DATA = [
   {
     "word": "designate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'指摘する",
       "示す",
@@ -1588,6 +1677,7 @@ window.VOCAB_DATA = [
   {
     "word": "detain",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'引き留める",
       "待たせておく",
@@ -1606,6 +1696,7 @@ window.VOCAB_DATA = [
   {
     "word": "deteriorate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'悪化させる",
       "…‘の'品質などを低下させる",
@@ -1624,6 +1715,7 @@ window.VOCAB_DATA = [
   {
     "word": "devastate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'荒廃させる",
       "荒らす",
@@ -1642,6 +1734,7 @@ window.VOCAB_DATA = [
   {
     "word": "devise",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'工夫する",
       "考案する",
@@ -1660,6 +1753,7 @@ window.VOCAB_DATA = [
   {
     "word": "diagnose",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "病気‘を'診断する",
       "病気‘を'診断する（文脈依存）"
@@ -1677,6 +1771,7 @@ window.VOCAB_DATA = [
   {
     "word": "dictate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "文章など‘を'書き取らせる",
       "口述する《+名+to+名》",
@@ -1695,6 +1790,7 @@ window.VOCAB_DATA = [
   {
     "word": "differentiate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'区別する",
       "識別する《+名+from+名》",
@@ -1713,6 +1809,7 @@ window.VOCAB_DATA = [
   {
     "word": "diminish",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'小さくする",
       "減らす",
@@ -1731,6 +1828,7 @@ window.VOCAB_DATA = [
   {
     "word": "dip",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'ちょっと浸す",
       "さっとつける《+名+in+名》",
@@ -1749,6 +1847,7 @@ window.VOCAB_DATA = [
   {
     "word": "discard",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "不用品・習慣など‘を'捨てる",
       "廃棄する",
@@ -1767,6 +1866,7 @@ window.VOCAB_DATA = [
   {
     "word": "discharge",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "船‘の'荷を降ろす",
       "船‘から'降ろす《+名船+of+名荷》",
@@ -1785,6 +1885,7 @@ window.VOCAB_DATA = [
   {
     "word": "disclose",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "隠れたもの‘を'あらわにする",
       "見せる",
@@ -1803,6 +1904,7 @@ window.VOCAB_DATA = [
   {
     "word": "displace",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘に'とって代わる",
       "人‘を'強制的に退去させる《+名+from+名》",
@@ -1821,6 +1923,7 @@ window.VOCAB_DATA = [
   {
     "word": "dispose",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'配置する",
       "整える《+名+for+名》",
@@ -1839,6 +1942,7 @@ window.VOCAB_DATA = [
   {
     "word": "dispute",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'議論する",
       "討議する",
@@ -1857,6 +1961,7 @@ window.VOCAB_DATA = [
   {
     "word": "disrupt",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'混乱させる",
       "…‘を'中断させる"
@@ -1874,6 +1979,7 @@ window.VOCAB_DATA = [
   {
     "word": "dissolve",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'溶かす",
       "溶液にする",
@@ -1892,6 +1998,7 @@ window.VOCAB_DATA = [
   {
     "word": "distort",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "形‘を'ゆがめる",
       "ねじる",
@@ -1910,6 +2017,7 @@ window.VOCAB_DATA = [
   {
     "word": "distress",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "U激しい苦しみ",
       "苦痛",
@@ -1928,6 +2036,7 @@ window.VOCAB_DATA = [
   {
     "word": "divert",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'わきへそらす《+名+from+名+to+名》",
       "心・注意など‘を'そらす《+名+from+名》",
@@ -1946,6 +2055,7 @@ window.VOCAB_DATA = [
   {
     "word": "drain",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘から'排出する《+名+of+名》",
       "液体‘を'排出する《+名+from+名》",
@@ -1964,6 +2074,7 @@ window.VOCAB_DATA = [
   {
     "word": "drift",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "U漂流",
       "流されること",
@@ -1982,6 +2093,7 @@ window.VOCAB_DATA = [
   {
     "word": "drown",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'溺死させる",
       "…‘を'水浸しにする",
@@ -2000,6 +2112,7 @@ window.VOCAB_DATA = [
   {
     "word": "dub",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "映画のフイルム・テレビなど‘の'吹き替えをする",
       "フイルム・テープ‘に'音楽を加える",
@@ -2018,6 +2131,7 @@ window.VOCAB_DATA = [
   {
     "word": "ease",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "気楽さ",
       "楽であること",
@@ -2036,6 +2150,7 @@ window.VOCAB_DATA = [
   {
     "word": "echo",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "CU反響",
       "こだま",
@@ -2054,6 +2169,7 @@ window.VOCAB_DATA = [
   {
     "word": "elevate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'上げる",
       "‘の'程度を高める《名+to+名》",
@@ -2072,6 +2188,7 @@ window.VOCAB_DATA = [
   {
     "word": "embark",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人が乗船する",
       "《おもに米》飛行機に乗る",
@@ -2090,6 +2207,7 @@ window.VOCAB_DATA = [
   {
     "word": "embed",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'埋める",
       "はめ込む《+名+in+名》",
@@ -2108,6 +2226,7 @@ window.VOCAB_DATA = [
   {
     "word": "embody",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "思相・感情など‘を'具体化する",
       "…‘を'まとめる",
@@ -2126,6 +2245,7 @@ window.VOCAB_DATA = [
   {
     "word": "empower",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人など‘に'能力を付与する《+名+to do》",
       "人など‘に'能力を付与する《+名+to do》（文脈依存）"
@@ -2143,6 +2263,7 @@ window.VOCAB_DATA = [
   {
     "word": "enact",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "法律‘を'制定する",
       "…‘を'法令化する",
@@ -2161,6 +2282,7 @@ window.VOCAB_DATA = [
   {
     "word": "encompass",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'取り囲む",
       "取り巻く《+名+with+名》",
@@ -2179,6 +2301,7 @@ window.VOCAB_DATA = [
   {
     "word": "endorse",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "小切手・手形・証書など‘に'裏書きをする",
       "意見・提案など‘を'支持する",
@@ -2197,6 +2320,7 @@ window.VOCAB_DATA = [
   {
     "word": "endure",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘に'耐える",
       "‘を'持ちこたえる",
@@ -2215,6 +2339,7 @@ window.VOCAB_DATA = [
   {
     "word": "enforce",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "法律など‘を'実施する",
       "施行する",
@@ -2233,6 +2358,7 @@ window.VOCAB_DATA = [
   {
     "word": "enrich",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "社会・人など‘を'裕福にする",
       "金持ちにする《+名+by+名》",
@@ -2251,6 +2377,7 @@ window.VOCAB_DATA = [
   {
     "word": "enrol",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘の'氏名を名簿に記入する",
       "人‘を'入会させる",
@@ -2269,6 +2396,7 @@ window.VOCAB_DATA = [
   {
     "word": "ensue",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "続いて起こる",
       "すぐ後ろに続く",
@@ -2287,6 +2415,7 @@ window.VOCAB_DATA = [
   {
     "word": "entitle",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "本など‘に'表題をつける",
       "人など‘に'名称を与える",
@@ -2305,6 +2434,7 @@ window.VOCAB_DATA = [
   {
     "word": "erect",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "直立した",
       "まっすぐな",
@@ -2323,6 +2453,7 @@ window.VOCAB_DATA = [
   {
     "word": "escalate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'段階的に増す",
       "段階的に増す"
@@ -2340,6 +2471,7 @@ window.VOCAB_DATA = [
   {
     "word": "evacuate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'明け渡す",
       "‘から'撤退する",
@@ -2358,6 +2490,7 @@ window.VOCAB_DATA = [
   {
     "word": "evoke",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "霊魂など‘を'呼び出す《+名+from+名》",
       "記憶・感情など‘を'呼び起こす"
@@ -2375,6 +2508,7 @@ window.VOCAB_DATA = [
   {
     "word": "exaggerate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'誇張する",
       "大げさに言う",
@@ -2393,6 +2527,7 @@ window.VOCAB_DATA = [
   {
     "word": "execute",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "計画・任務など‘を'実行する",
       "遂行する",
@@ -2411,6 +2546,7 @@ window.VOCAB_DATA = [
   {
     "word": "exert",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "威力など‘を'発揮する",
       "感化など‘を'及ぼす《+名+on+名》"
@@ -2428,6 +2564,7 @@ window.VOCAB_DATA = [
   {
     "word": "exit",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "退場する",
       "退場する（文脈依存）"
@@ -2445,6 +2582,7 @@ window.VOCAB_DATA = [
   {
     "word": "expire",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "期限などが満了する",
       "契約が切れる",
@@ -2463,6 +2601,7 @@ window.VOCAB_DATA = [
   {
     "word": "extract",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "物‘を'引き抜く",
       "抜き取る《+名+from+名》",
@@ -2481,6 +2620,7 @@ window.VOCAB_DATA = [
   {
     "word": "facilitate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'容易にする",
       "楽にする",
@@ -2499,6 +2639,7 @@ window.VOCAB_DATA = [
   {
     "word": "fade",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "衰える",
       "弱くなる",
@@ -2517,6 +2658,7 @@ window.VOCAB_DATA = [
   {
     "word": "filter",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "ろ過器",
       "ろ過装置",
@@ -2535,6 +2677,7 @@ window.VOCAB_DATA = [
   {
     "word": "fine",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "りっぱな",
       "みごとな",
@@ -2553,6 +2696,7 @@ window.VOCAB_DATA = [
   {
     "word": "flee",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "逃げる《+from+名》",
       "《副詞を伴って》すばやく動く",
@@ -2571,6 +2715,7 @@ window.VOCAB_DATA = [
   {
     "word": "flourish",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "文化などが栄える",
       "商売などが繁盛する",
@@ -2589,6 +2734,7 @@ window.VOCAB_DATA = [
   {
     "word": "forge",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "ぐんぐん前に出る",
       "どんどん進む"
@@ -2606,6 +2752,7 @@ window.VOCAB_DATA = [
   {
     "word": "formulate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "考え・理論・計画など‘を'明確に述べる",
       "…‘を'公式で表す"
@@ -2623,6 +2770,7 @@ window.VOCAB_DATA = [
   {
     "word": "foster",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "里子など‘を'養育する",
       "病人など‘の'世話をする",
@@ -2641,6 +2789,7 @@ window.VOCAB_DATA = [
   {
     "word": "gaze",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "じっと見つめる",
       "凝視する《+at+名》",
@@ -2659,6 +2808,7 @@ window.VOCAB_DATA = [
   {
     "word": "glance",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "ちらっと見る",
       "一目見る",
@@ -2677,6 +2827,7 @@ window.VOCAB_DATA = [
   {
     "word": "grasp",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'しっかり握る",
       "ぎゅっとつかむ",
@@ -2695,6 +2846,7 @@ window.VOCAB_DATA = [
   {
     "word": "grin",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "歯を見せて笑う《+at+名》",
       "歯をむき出す《+at+名》",
@@ -2713,6 +2865,7 @@ window.VOCAB_DATA = [
   {
     "word": "grind",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "穀物など‘を'ひく",
       "細かく砕く《+名+into+名》",
@@ -2731,6 +2884,7 @@ window.VOCAB_DATA = [
   {
     "word": "grip",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "《単数形で》しっかり握ること《+on+名》",
       "握り方",
@@ -2749,6 +2903,7 @@ window.VOCAB_DATA = [
   {
     "word": "hail",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'歓呼して迎える",
       "あいさつ",
@@ -2767,6 +2922,7 @@ window.VOCAB_DATA = [
   {
     "word": "halt",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "脚の不自由な人",
       "脚の不自由な人（文脈依存）"
@@ -2784,6 +2940,7 @@ window.VOCAB_DATA = [
   {
     "word": "harvest",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "C収穫",
       "取り入れ",
@@ -2802,6 +2959,7 @@ window.VOCAB_DATA = [
   {
     "word": "haunt",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘に'しばしば行く",
       "《しばしば受動態で》…‘に'出没する",
@@ -2820,6 +2978,7 @@ window.VOCAB_DATA = [
   {
     "word": "heighten",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'高くする",
       "高める",
@@ -2838,6 +2997,7 @@ window.VOCAB_DATA = [
   {
     "word": "hint",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "暗示",
       "ほのめかし",
@@ -2856,6 +3016,7 @@ window.VOCAB_DATA = [
   {
     "word": "hook",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "掛けくぎ",
       "留め金",
@@ -2874,6 +3035,7 @@ window.VOCAB_DATA = [
   {
     "word": "imprison",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'投獄する",
       "刑務所に入れる",
@@ -2892,6 +3054,7 @@ window.VOCAB_DATA = [
   {
     "word": "incur",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "損害・非難・危険など‘を'招く",
       "こうむる"
@@ -2909,6 +3072,7 @@ window.VOCAB_DATA = [
   {
     "word": "induce",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘に'勧めてさせる",
       "…‘を'引き起こす",
@@ -2927,6 +3091,7 @@ window.VOCAB_DATA = [
   {
     "word": "indulge",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "欲望など‘を'満足させる",
       "人‘の'思いのままにさせる",
@@ -2945,6 +3110,7 @@ window.VOCAB_DATA = [
   {
     "word": "infect",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "病気が…‘に'感染する",
       "…‘に'感染させる",
@@ -2963,6 +3129,7 @@ window.VOCAB_DATA = [
   {
     "word": "inflict",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "苦痛・打撃・罰など‘を'与える",
       "加える"
@@ -2980,6 +3147,7 @@ window.VOCAB_DATA = [
   {
     "word": "inhibit",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "感情・欲望・行動・作用など‘を'抑制する",
       "人‘を'抑制する",
@@ -2998,6 +3166,7 @@ window.VOCAB_DATA = [
   {
     "word": "initiate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'始める",
       "《しばしば受動態で》人‘を'入会させる《+名人+in+名》",
@@ -3016,6 +3185,7 @@ window.VOCAB_DATA = [
   {
     "word": "inject",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "液体など‘を'注射する",
       "注入する《+名+into+名》",
@@ -3034,6 +3204,7 @@ window.VOCAB_DATA = [
   {
     "word": "inspect",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'検査する",
       "念入りに調べる",
@@ -3052,6 +3223,7 @@ window.VOCAB_DATA = [
   {
     "word": "instruct",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘に'知識を与える",
       "教える",
@@ -3070,6 +3242,7 @@ window.VOCAB_DATA = [
   {
     "word": "insult",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人・物など‘を'侮辱する",
       "はずかしめる",
@@ -3088,6 +3261,7 @@ window.VOCAB_DATA = [
   {
     "word": "intensify",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'強める",
       "強烈にする",
@@ -3106,6 +3280,7 @@ window.VOCAB_DATA = [
   {
     "word": "interfere",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "干渉する",
       "口出しをする《+in+名)wh-節》",
@@ -3124,6 +3299,7 @@ window.VOCAB_DATA = [
   {
     "word": "intervene",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "間に起こる",
       "間に人る《+between+名》",
@@ -3142,6 +3318,7 @@ window.VOCAB_DATA = [
   {
     "word": "invoke",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "神‘に'呼びかける",
       "祈願する",
@@ -3160,6 +3337,7 @@ window.VOCAB_DATA = [
   {
     "word": "kidnap",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘を'誘拐する",
       "人‘を'誘拐する（文脈依存）"
@@ -3177,6 +3355,7 @@ window.VOCAB_DATA = [
   {
     "word": "leak",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "UC漏れること",
       "C漏れ口",
@@ -3195,6 +3374,7 @@ window.VOCAB_DATA = [
   {
     "word": "leap",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "《しばしば副詞を伴って》ぴょんと飛ぶ",
       "はねる",
@@ -3213,6 +3393,7 @@ window.VOCAB_DATA = [
   {
     "word": "license",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "UC許可",
       "免許",
@@ -3231,6 +3412,7 @@ window.VOCAB_DATA = [
   {
     "word": "linger",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "なかなか立ち去らない《+on》",
       "病人が生き続ける《+on》",
@@ -3249,6 +3431,7 @@ window.VOCAB_DATA = [
   {
     "word": "lobby",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "ロビー",
       "《《米》単数・複数扱い》圧力団体",
@@ -3267,6 +3450,7 @@ window.VOCAB_DATA = [
   {
     "word": "log",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "丸太",
       "丸木",
@@ -3285,6 +3469,7 @@ window.VOCAB_DATA = [
   {
     "word": "loom",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "ぼうっと現れる",
       "ぼんやりと大きく見えてくる《+up》",
@@ -3303,6 +3488,7 @@ window.VOCAB_DATA = [
   {
     "word": "manifest",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "明白な",
       "はっきりした",
@@ -3321,6 +3507,7 @@ window.VOCAB_DATA = [
   {
     "word": "manipulate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "道具類‘を'巧みに扱う",
       "言葉‘を'うまく使う",
@@ -3339,6 +3526,7 @@ window.VOCAB_DATA = [
   {
     "word": "march",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "国境",
       "境界",
@@ -3357,6 +3545,7 @@ window.VOCAB_DATA = [
   {
     "word": "mature",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "成熟した",
       "十分に成長した",
@@ -3375,6 +3564,7 @@ window.VOCAB_DATA = [
   {
     "word": "maximize",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'最大限にする",
       "…‘を'最大限にする（文脈依存）"
@@ -3392,6 +3582,7 @@ window.VOCAB_DATA = [
   {
     "word": "merge",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "会社・組織が合併する",
       "合体する",
@@ -3410,6 +3601,7 @@ window.VOCAB_DATA = [
   {
     "word": "minimize",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'最小限にする",
       "…‘を'過小評価する",
@@ -3428,6 +3620,7 @@ window.VOCAB_DATA = [
   {
     "word": "mobilize",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "軍隊・産業など‘を'動員する",
       "戦時体制にする",
@@ -3446,6 +3639,7 @@ window.VOCAB_DATA = [
   {
     "word": "neglect",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'無視する",
       "かまわない",
@@ -3464,6 +3658,7 @@ window.VOCAB_DATA = [
   {
     "word": "nod",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "うなずく",
       "会釈する",
@@ -3482,6 +3677,7 @@ window.VOCAB_DATA = [
   {
     "word": "nominate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'指名する《+名+for+名》",
       "…‘を'任命する《+名+to+名》"
@@ -3499,6 +3695,7 @@ window.VOCAB_DATA = [
   {
     "word": "notify",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘に'知らせる",
       "通報する"
@@ -3516,6 +3713,7 @@ window.VOCAB_DATA = [
   {
     "word": "oblige",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘に'義務を負わせる",
       "強制する",
@@ -3534,6 +3732,7 @@ window.VOCAB_DATA = [
   {
     "word": "obsess",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "悪魔・妄想などが人‘に'とりつく",
       "‘の'心につきまとう"
@@ -3551,6 +3750,7 @@ window.VOCAB_DATA = [
   {
     "word": "opt",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "選ぶ《+for+名》",
       "選ぶ《+to do》"
@@ -3568,6 +3768,7 @@ window.VOCAB_DATA = [
   {
     "word": "originate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'引き起こす",
       "…‘を'考え出す",
@@ -3586,6 +3787,7 @@ window.VOCAB_DATA = [
   {
     "word": "outrage",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "CU暴行",
       "乱暴な行為《+against+名》",
@@ -3604,6 +3806,7 @@ window.VOCAB_DATA = [
   {
     "word": "overlook",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'見落とす",
       "見逃す",
@@ -3622,6 +3825,7 @@ window.VOCAB_DATA = [
   {
     "word": "oversee",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "仕事・人‘を'監督する",
       "仕事・人‘を'監督する（文脈依存）"
@@ -3639,6 +3843,7 @@ window.VOCAB_DATA = [
   {
     "word": "overturn",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'ひっくり返す",
       "…‘を'体倒する",
@@ -3657,6 +3862,7 @@ window.VOCAB_DATA = [
   {
     "word": "overwhelm",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'圧倒する",
       "‘に'打ち勝つ",
@@ -3675,6 +3881,7 @@ window.VOCAB_DATA = [
   {
     "word": "patrol",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "区域・場所など‘を'巡回する",
       "巡視する",
@@ -3693,6 +3900,7 @@ window.VOCAB_DATA = [
   {
     "word": "persist",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "あくまでも続ける",
       "がん張る",
@@ -3711,6 +3919,7 @@ window.VOCAB_DATA = [
   {
     "word": "pioneer",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "開拓者",
       "駆者",
@@ -3729,6 +3938,7 @@ window.VOCAB_DATA = [
   {
     "word": "plead",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "嘆願する",
       "懇願する",
@@ -3747,6 +3957,7 @@ window.VOCAB_DATA = [
   {
     "word": "pledge",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "CU誓約",
       "固い約束",
@@ -3765,6 +3976,7 @@ window.VOCAB_DATA = [
   {
     "word": "plug",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "くさび",
       "差し込み",
@@ -3783,6 +3995,7 @@ window.VOCAB_DATA = [
   {
     "word": "plunge",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'突っ込む",
       "押し込む《+down+名",
@@ -3801,6 +4014,7 @@ window.VOCAB_DATA = [
   {
     "word": "pop",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "ポピュラー音楽",
       "ポピュラー音楽（文脈依存）"
@@ -3818,6 +4032,7 @@ window.VOCAB_DATA = [
   {
     "word": "portray",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人物・風景‘を'絵で描く",
       "…‘を'言葉で描写する",
@@ -3836,6 +4051,7 @@ window.VOCAB_DATA = [
   {
     "word": "postpone",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'延期する",
       "延ばす"
@@ -3853,6 +4069,7 @@ window.VOCAB_DATA = [
   {
     "word": "preach",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "説教する",
       "説く《+to+名人+about+名》",
@@ -3871,6 +4088,7 @@ window.VOCAB_DATA = [
   {
     "word": "prescribe",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "守るべき規則・方針など‘を'規定する",
       "勧める",
@@ -3889,6 +4107,7 @@ window.VOCAB_DATA = [
   {
     "word": "preside",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "司会をする",
       "議長をつとめる《+at+名》",
@@ -3907,6 +4126,7 @@ window.VOCAB_DATA = [
   {
     "word": "presume",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'推定する",
       "仮定する",
@@ -3925,6 +4145,7 @@ window.VOCAB_DATA = [
   {
     "word": "prevail",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "《文》",
       "強さ・影響力が勝る",
@@ -3943,6 +4164,7 @@ window.VOCAB_DATA = [
   {
     "word": "probe",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "さぐり針",
       "厳密に調べること",
@@ -3961,6 +4183,7 @@ window.VOCAB_DATA = [
   {
     "word": "proclaim",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "国家的・社会的重大事‘を'宣言する",
       "公表する",
@@ -3979,6 +4202,7 @@ window.VOCAB_DATA = [
   {
     "word": "prosecute",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘を'起訴する",
       "告訴する《+名人+for+名》",
@@ -3997,6 +4221,7 @@ window.VOCAB_DATA = [
   {
     "word": "provoke",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'怒らせる",
       "不きげんにする",
@@ -4015,6 +4240,7 @@ window.VOCAB_DATA = [
   {
     "word": "pump",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "パンプス",
       "パンプス（文脈依存）"
@@ -4032,6 +4258,7 @@ window.VOCAB_DATA = [
   {
     "word": "punch",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "ポンチ",
       "パンチ"
@@ -4049,6 +4276,7 @@ window.VOCAB_DATA = [
   {
     "word": "raid",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "襲撃",
       "奇襲",
@@ -4067,6 +4295,7 @@ window.VOCAB_DATA = [
   {
     "word": "rally",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'からかう",
       "ひやかす"
@@ -4084,6 +4313,7 @@ window.VOCAB_DATA = [
   {
     "word": "rape",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "セイヨウアブラナ",
       "セイヨウアブラナ（文脈依存）"
@@ -4101,6 +4331,7 @@ window.VOCAB_DATA = [
   {
     "word": "reassure",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘に'自信を取り戻させる",
       "人‘に'自信を取り戻させる（文脈依存）"
@@ -4118,6 +4349,7 @@ window.VOCAB_DATA = [
   {
     "word": "recount",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'詳しく話す",
       "…‘を'詳しく話す（文脈依存）"
@@ -4135,6 +4367,7 @@ window.VOCAB_DATA = [
   {
     "word": "reform",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "政治・制度など‘を'改善する",
       "改革する",
@@ -4153,6 +4386,7 @@ window.VOCAB_DATA = [
   {
     "word": "regain",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "健康・記憶など‘を'取り戻す",
       "回復する",
@@ -4171,6 +4405,7 @@ window.VOCAB_DATA = [
   {
     "word": "reign",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "U統治",
       "支配",
@@ -4189,6 +4424,7 @@ window.VOCAB_DATA = [
   {
     "word": "render",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "《render+名目+形補》…‘を'する)make)",
       "…‘を'行う",
@@ -4207,6 +4443,7 @@ window.VOCAB_DATA = [
   {
     "word": "renew",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'新しくする",
       "若さなど‘を'取り戻す",
@@ -4225,6 +4462,7 @@ window.VOCAB_DATA = [
   {
     "word": "reproduce",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "場面など‘を'再現する",
       "音など‘を'再生する",
@@ -4243,6 +4481,7 @@ window.VOCAB_DATA = [
   {
     "word": "resemble",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘に'似ている",
       "‘と'共通点がある"
@@ -4260,6 +4499,7 @@ window.VOCAB_DATA = [
   {
     "word": "reside",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "住む",
       "居住する《+at+名》",
@@ -4278,6 +4518,7 @@ window.VOCAB_DATA = [
   {
     "word": "resume",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "概要",
       "摘要",
@@ -4296,6 +4537,7 @@ window.VOCAB_DATA = [
   {
     "word": "retreat",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "退却する",
       "後退する《+from+名+to+名》",
@@ -4314,6 +4556,7 @@ window.VOCAB_DATA = [
   {
     "word": "retrieve",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'取り戻す",
       "回収する《+名+from+名》",
@@ -4332,6 +4575,7 @@ window.VOCAB_DATA = [
   {
     "word": "reverse",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "逆の",
       "裏側の",
@@ -4350,6 +4594,7 @@ window.VOCAB_DATA = [
   {
     "word": "revive",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘を'生き返らせる",
       "意識・元気‘を'回復させる",
@@ -4368,6 +4613,7 @@ window.VOCAB_DATA = [
   {
     "word": "rip",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "流れがぶつかりあう所",
       "流れがぶつかりあう所（文脈依存）"
@@ -4385,6 +4631,7 @@ window.VOCAB_DATA = [
   {
     "word": "rock",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'前後にそっと揺り動かす",
       "…‘を'震動させる",
@@ -4403,6 +4650,7 @@ window.VOCAB_DATA = [
   {
     "word": "rotate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "回転する",
       "循環する",
@@ -4421,6 +4669,7 @@ window.VOCAB_DATA = [
   {
     "word": "sack",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "サック酒",
       "サック酒（文脈依存）"
@@ -4438,6 +4687,7 @@ window.VOCAB_DATA = [
   {
     "word": "sacrifice",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "UCいけにえをささげること",
       "Cいけにえ《+of+名+to+名》",
@@ -4456,6 +4706,7 @@ window.VOCAB_DATA = [
   {
     "word": "screw",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "ねじねじくぎ",
       "ねじボルト",
@@ -4474,6 +4725,7 @@ window.VOCAB_DATA = [
   {
     "word": "seal",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "印章",
       "印鑑",
@@ -4492,6 +4744,7 @@ window.VOCAB_DATA = [
   {
     "word": "seize",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'ぐいとつかむ",
       "ひっつかむ",
@@ -4510,6 +4763,7 @@ window.VOCAB_DATA = [
   {
     "word": "shatter",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "物‘を'粉々に打ち砕く",
       "粉砕する",
@@ -4528,6 +4782,7 @@ window.VOCAB_DATA = [
   {
     "word": "shed",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "納屋",
       "物置",
@@ -4546,6 +4801,7 @@ window.VOCAB_DATA = [
   {
     "word": "shrink",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "布などが縮む",
       "しりごみする",
@@ -4564,6 +4820,7 @@ window.VOCAB_DATA = [
   {
     "word": "shrug",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "骨‘を'すくめる",
       "骨をすくめる",
@@ -4582,6 +4839,7 @@ window.VOCAB_DATA = [
   {
     "word": "sigh",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "ため息をつく《+with+名》",
       "嘆いてため息をつく《+over+名》",
@@ -4600,6 +4858,7 @@ window.VOCAB_DATA = [
   {
     "word": "simulate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘の'ふりをする",
       "‘を'装う",
@@ -4618,6 +4877,7 @@ window.VOCAB_DATA = [
   {
     "word": "skip",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "主将",
       "主将（文脈依存）"
@@ -4635,6 +4895,7 @@ window.VOCAB_DATA = [
   {
     "word": "slam",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "スラムまたは1組を除いて全部勝つこと)",
       "スラムまたは1組を除いて全部勝つこと)（文脈依存）"
@@ -4652,6 +4913,7 @@ window.VOCAB_DATA = [
   {
     "word": "slap",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "まっすぐに",
       "まともに"
@@ -4669,6 +4931,7 @@ window.VOCAB_DATA = [
   {
     "word": "slash",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'さっと切る・…‘を'ヒュッと打ち下ろす",
       "《通例受動態で》が見えるようにするため)衣服‘に'あき口を付ける・《通例受動態で》価格・数量など‘を'大幅に切り下げる",
@@ -4687,6 +4950,7 @@ window.VOCAB_DATA = [
   {
     "word": "smash",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'粉々にする",
       "…‘を'打ち砕いてする《+名+to+名》・…‘を'ガンと打つ",
@@ -4705,6 +4969,7 @@ window.VOCAB_DATA = [
   {
     "word": "snap",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "パチンと音をたてる・木の枝などがポキッと折れる",
       "糸などがプツンと切れる・戸・ふた・カギなどがパチンと音をたててなる《+形補》・ぱくっとかみつく《+at+名》・…‘を'パチンと音をさせる・…‘を'ポキッと折る",
@@ -4723,6 +4988,7 @@ window.VOCAB_DATA = [
   {
     "word": "soak",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'びしょぬれにする",
       "ぬらす・…‘を'浸す",
@@ -4741,6 +5007,7 @@ window.VOCAB_DATA = [
   {
     "word": "soar",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "ワシなどが空高く飛ぶ",
       "舞い上がる",
@@ -4759,6 +5026,7 @@ window.VOCAB_DATA = [
   {
     "word": "spare",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'容赦する",
       "‘の'命を助ける",
@@ -4777,6 +5045,7 @@ window.VOCAB_DATA = [
   {
     "word": "spark",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "C火花",
       "火の粉",
@@ -4795,6 +5064,7 @@ window.VOCAB_DATA = [
   {
     "word": "spin",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "糸など‘を'紡ぐ《+名+out of+名羊毛》",
       "羊毛など‘を'紡ぐ《+名羊毛+into+名》",
@@ -4813,6 +5083,7 @@ window.VOCAB_DATA = [
   {
     "word": "spy",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "スパイ",
       "諜報員",
@@ -4831,6 +5102,7 @@ window.VOCAB_DATA = [
   {
     "word": "squeeze",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'絞る",
       "圧搾する",
@@ -4849,6 +5121,7 @@ window.VOCAB_DATA = [
   {
     "word": "stab",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'刺す",
       "突き刺す《+名+with+名刃物など》",
@@ -4867,6 +5140,7 @@ window.VOCAB_DATA = [
   {
     "word": "stabilize",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'固定させる",
       "安定させる"
@@ -4884,6 +5158,7 @@ window.VOCAB_DATA = [
   {
     "word": "steer",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "去勢された食用の雄ウシ",
       "去勢された食用の雄ウシ（文脈依存）"
@@ -4901,6 +5176,7 @@ window.VOCAB_DATA = [
   {
     "word": "stem",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "流れなど‘を'止める",
       "風・水流など‘に'逆らって進む",
@@ -4919,6 +5195,7 @@ window.VOCAB_DATA = [
   {
     "word": "stir",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "刑務所",
       "刑務所（文脈依存）"
@@ -4936,6 +5213,7 @@ window.VOCAB_DATA = [
   {
     "word": "strip",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "細長い一片《+of+名》",
       "の滑走路"
@@ -4953,6 +5231,7 @@ window.VOCAB_DATA = [
   {
     "word": "strive",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "大いに努力する",
       "励む",
@@ -4971,6 +5250,7 @@ window.VOCAB_DATA = [
   {
     "word": "stumble",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "つまずく",
       "とろける《+over+名》",
@@ -4989,6 +5269,7 @@ window.VOCAB_DATA = [
   {
     "word": "stun",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'気絶させる",
       "人‘の'肝をつぶさせる",
@@ -5007,6 +5288,7 @@ window.VOCAB_DATA = [
   {
     "word": "substitute",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "代りをする人",
       "補欠",
@@ -5025,6 +5307,7 @@ window.VOCAB_DATA = [
   {
     "word": "suck",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "ミルクなど‘を'吸う",
       "すする《+名+from+名》",
@@ -5043,6 +5326,7 @@ window.VOCAB_DATA = [
   {
     "word": "sue",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人など‘を'告訴する",
       "訴える《+名人+for+名》",
@@ -5061,6 +5345,7 @@ window.VOCAB_DATA = [
   {
     "word": "supervise",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "労働者・仕事など‘を'監督する",
       "管理する",
@@ -5079,6 +5364,7 @@ window.VOCAB_DATA = [
   {
     "word": "supplement",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "補足",
       "追加",
@@ -5097,6 +5383,7 @@ window.VOCAB_DATA = [
   {
     "word": "suppress",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "反乱など‘を'鎮圧する…",
       "‘の'活動を押える",
@@ -5115,6 +5402,7 @@ window.VOCAB_DATA = [
   {
     "word": "surge",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "波のように押し寄せる",
       "殺到する",
@@ -5133,6 +5421,7 @@ window.VOCAB_DATA = [
   {
     "word": "surrender",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'引き渡す",
       "明け渡す《+名+to+名》",
@@ -5151,6 +5440,7 @@ window.VOCAB_DATA = [
   {
     "word": "sustain",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'持続する",
       "続けてする",
@@ -5169,6 +5459,7 @@ window.VOCAB_DATA = [
   {
     "word": "swing",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'振る",
       "揺り動かす",
@@ -5187,6 +5478,7 @@ window.VOCAB_DATA = [
   {
     "word": "tempt",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人‘を'誘惑する",
       "そそのかす",
@@ -5205,6 +5497,7 @@ window.VOCAB_DATA = [
   {
     "word": "terminate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'終わらせる《+名+with+名》",
       "…‘の'終りにくる",
@@ -5223,6 +5516,7 @@ window.VOCAB_DATA = [
   {
     "word": "testify",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "人が証言する",
       "証言する",
@@ -5241,6 +5535,7 @@ window.VOCAB_DATA = [
   {
     "word": "thrive",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "物事が成功する",
       "栄える",
@@ -5259,6 +5554,7 @@ window.VOCAB_DATA = [
   {
     "word": "tighten",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'きつく締める《+名+up",
       "+up+名》",
@@ -5277,6 +5573,7 @@ window.VOCAB_DATA = [
   {
     "word": "tolerate",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘に'寛大な態度をとる",
       "‘を'黙認する",
@@ -5295,6 +5592,7 @@ window.VOCAB_DATA = [
   {
     "word": "top",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "こま",
       "こま（文脈依存）"
@@ -5312,6 +5610,7 @@ window.VOCAB_DATA = [
   {
     "word": "torture",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'拷問にかける",
       "…‘を'ひどく苦しめる《+名+with+名》",
@@ -5330,6 +5629,7 @@ window.VOCAB_DATA = [
   {
     "word": "toss",
     "part": "verb",
+    "rank": "C1",
     "meanings": [
       "…‘を'軽く投げ上げる",
       "ほうる",
@@ -5348,6 +5648,7 @@ window.VOCAB_DATA = [
   {
     "word": "abortion",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC流産",
       "妊娠中絶",
@@ -5366,6 +5667,7 @@ window.VOCAB_DATA = [
   {
     "word": "absence",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UCるす",
       "不在",
@@ -5384,6 +5686,7 @@ window.VOCAB_DATA = [
   {
     "word": "abundance",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "たくさん",
       "豊富",
@@ -5402,6 +5705,7 @@ window.VOCAB_DATA = [
   {
     "word": "abuse",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC乱用",
       "悪用《+of+名》",
@@ -5420,6 +5724,7 @@ window.VOCAB_DATA = [
   {
     "word": "academy",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "学士院",
       "芸術院",
@@ -5438,6 +5743,7 @@ window.VOCAB_DATA = [
   {
     "word": "acceptance",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U受け取ること",
       "認めること",
@@ -5456,6 +5762,7 @@ window.VOCAB_DATA = [
   {
     "word": "accomplishment",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U完成",
       "成就",
@@ -5474,6 +5781,7 @@ window.VOCAB_DATA = [
   {
     "word": "accordance",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "一致",
       "調和",
@@ -5492,6 +5800,7 @@ window.VOCAB_DATA = [
   {
     "word": "accumulation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U蓄積すること",
       "ためること",
@@ -5510,6 +5819,7 @@ window.VOCAB_DATA = [
   {
     "word": "accusation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "CU告発すること《+of+名》",
       "告発されること",
@@ -5528,6 +5838,7 @@ window.VOCAB_DATA = [
   {
     "word": "accused",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "告発された",
       "刑事被告人"
@@ -5545,6 +5856,7 @@ window.VOCAB_DATA = [
   {
     "word": "acquisition",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U取得すること《+of+名》",
       "C取得したもの",
@@ -5563,6 +5875,7 @@ window.VOCAB_DATA = [
   {
     "word": "acre",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "エーカー",
       "《複数形で》田畑",
@@ -5581,6 +5894,7 @@ window.VOCAB_DATA = [
   {
     "word": "activation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "活動化",
       "活性化"
@@ -5598,6 +5912,7 @@ window.VOCAB_DATA = [
   {
     "word": "activist",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "積極行動主義者",
       "実践主義者"
@@ -5615,6 +5930,7 @@ window.VOCAB_DATA = [
   {
     "word": "adaptation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U適応",
       "順応",
@@ -5633,6 +5949,7 @@ window.VOCAB_DATA = [
   {
     "word": "adjustment",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U調停",
       "調整",
@@ -5651,6 +5968,7 @@ window.VOCAB_DATA = [
   {
     "word": "administrator",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "為政者",
       "行政官",
@@ -5669,6 +5987,7 @@ window.VOCAB_DATA = [
   {
     "word": "admission",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U入ることを許すこと",
       "入場許可",
@@ -5687,6 +6006,7 @@ window.VOCAB_DATA = [
   {
     "word": "adolescent",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "青春期の",
       "青年らしい",
@@ -5705,6 +6025,7 @@ window.VOCAB_DATA = [
   {
     "word": "adoption",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "採用",
       "採択《+of+名》",
@@ -5723,6 +6044,7 @@ window.VOCAB_DATA = [
   {
     "word": "advocate",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "考え・主義・政策など弁護して言う",
       "主唱する",
@@ -5741,6 +6063,7 @@ window.VOCAB_DATA = [
   {
     "word": "affection",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U愛情",
       "好意",
@@ -5759,6 +6082,7 @@ window.VOCAB_DATA = [
   {
     "word": "aftermath",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "余波",
       "結果"
@@ -5776,6 +6100,7 @@ window.VOCAB_DATA = [
   {
     "word": "aggression",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC侵略",
       "攻撃",
@@ -5794,6 +6119,7 @@ window.VOCAB_DATA = [
   {
     "word": "aide",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "副官",
       "補佐官",
@@ -5812,6 +6138,7 @@ window.VOCAB_DATA = [
   {
     "word": "alert",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "油断のない",
       "用心深い",
@@ -5830,6 +6157,7 @@ window.VOCAB_DATA = [
   {
     "word": "alignment",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "整列",
       "提携",
@@ -5848,6 +6176,7 @@ window.VOCAB_DATA = [
   {
     "word": "allegation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "主張",
       "申し立て"
@@ -5865,6 +6194,7 @@ window.VOCAB_DATA = [
   {
     "word": "alliance",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC同盟",
       "協定",
@@ -5883,6 +6213,7 @@ window.VOCAB_DATA = [
   {
     "word": "allocation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "割り当て",
       "配置",
@@ -5901,6 +6232,7 @@ window.VOCAB_DATA = [
   {
     "word": "allowance",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "割り当て",
       "手当",
@@ -5919,6 +6251,7 @@ window.VOCAB_DATA = [
   {
     "word": "ally",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "…同盟させる《+名+with+名》",
       "同盟国",
@@ -5937,6 +6270,7 @@ window.VOCAB_DATA = [
   {
     "word": "aluminium",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《英》=aluminum",
       "《英》=aluminum（文脈依存）"
@@ -5954,6 +6288,7 @@ window.VOCAB_DATA = [
   {
     "word": "amateur",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "アマチュア",
       "しろうと",
@@ -5972,6 +6307,7 @@ window.VOCAB_DATA = [
   {
     "word": "ambassador",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "大使",
       "大使（文脈依存）"
@@ -5989,6 +6325,7 @@ window.VOCAB_DATA = [
   {
     "word": "amendment",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "修正",
       "改正",
@@ -6007,6 +6344,7 @@ window.VOCAB_DATA = [
   {
     "word": "analogy",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "類似《+between+名》",
       "類似《+to+名》",
@@ -6025,6 +6363,7 @@ window.VOCAB_DATA = [
   {
     "word": "anchor",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "いかり",
       "固定装置",
@@ -6043,6 +6382,7 @@ window.VOCAB_DATA = [
   {
     "word": "angel",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "天使",
       "天使のような人",
@@ -6061,6 +6401,7 @@ window.VOCAB_DATA = [
   {
     "word": "apparatus",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC器具",
       "装置",
@@ -6079,6 +6420,7 @@ window.VOCAB_DATA = [
   {
     "word": "appetite",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "食欲",
       "欲求",
@@ -6097,6 +6439,7 @@ window.VOCAB_DATA = [
   {
     "word": "appreciation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U正しく認識すること",
       "識別",
@@ -6115,6 +6458,7 @@ window.VOCAB_DATA = [
   {
     "word": "arena",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "闘技場",
       "競技場",
@@ -6133,6 +6477,7 @@ window.VOCAB_DATA = [
   {
     "word": "array",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "軍隊など整列させる",
       "配置する",
@@ -6151,6 +6496,7 @@ window.VOCAB_DATA = [
   {
     "word": "ash",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C西洋トネリコの木",
       "Uトネリコ材"
@@ -6168,6 +6514,7 @@ window.VOCAB_DATA = [
   {
     "word": "aspiration",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "大望",
       "熱望",
@@ -6186,6 +6533,7 @@ window.VOCAB_DATA = [
   {
     "word": "assassination",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "暗殺",
       "暗殺（文脈依存）"
@@ -6203,6 +6551,7 @@ window.VOCAB_DATA = [
   {
     "word": "assault",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "的な意で)襲うこと",
       "強襲",
@@ -6221,6 +6570,7 @@ window.VOCAB_DATA = [
   {
     "word": "assembly",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C集会",
       "会合",
@@ -6239,6 +6589,7 @@ window.VOCAB_DATA = [
   {
     "word": "assertion",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C断言",
       "主張",
@@ -6257,6 +6608,7 @@ window.VOCAB_DATA = [
   {
     "word": "assurance",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C保証",
       "請け合い",
@@ -6275,6 +6627,7 @@ window.VOCAB_DATA = [
   {
     "word": "asylum",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "保護収容所",
       "養育院",
@@ -6293,6 +6646,7 @@ window.VOCAB_DATA = [
   {
     "word": "atrocity",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U残虐",
       "凶暴",
@@ -6311,6 +6665,7 @@ window.VOCAB_DATA = [
   {
     "word": "attendance",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U出席",
       "参列《+at+名》",
@@ -6329,6 +6684,7 @@ window.VOCAB_DATA = [
   {
     "word": "attorney",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《米》=lawyer",
       "代理人"
@@ -6346,6 +6702,7 @@ window.VOCAB_DATA = [
   {
     "word": "attribute",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "…‘の'原因があるとする《+名+to+名》",
       "ある特質・性格など‘が'備わっていると考える《+名+to+名》",
@@ -6364,6 +6721,7 @@ window.VOCAB_DATA = [
   {
     "word": "audit",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "会計検査",
       "決算報告",
@@ -6382,6 +6740,7 @@ window.VOCAB_DATA = [
   {
     "word": "auto",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《米話》=automobile",
       "《米話》=automobile（文脈依存）"
@@ -6399,6 +6758,7 @@ window.VOCAB_DATA = [
   {
     "word": "autonomy",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U自主性",
       "U自治",
@@ -6417,6 +6777,7 @@ window.VOCAB_DATA = [
   {
     "word": "availability",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "利用できること",
       "有用性",
@@ -6435,6 +6796,7 @@ window.VOCAB_DATA = [
   {
     "word": "backdrop",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《米》背景幕",
       "背景",
@@ -6453,6 +6815,7 @@ window.VOCAB_DATA = [
   {
     "word": "backing",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U裏打ち",
       "背付け",
@@ -6471,6 +6834,7 @@ window.VOCAB_DATA = [
   {
     "word": "backup",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "予備",
       "たくわえ",
@@ -6489,6 +6853,7 @@ window.VOCAB_DATA = [
   {
     "word": "bail",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "水汲み出す《+名+out of+名》",
       "舟‘の'水を汲み出す《+out+名",
@@ -6507,6 +6872,7 @@ window.VOCAB_DATA = [
   {
     "word": "ballot",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C投票用紙",
       "UC無記命投票",
@@ -6525,6 +6891,7 @@ window.VOCAB_DATA = [
   {
     "word": "banner",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《文》旗",
       "軍旗",
@@ -6543,6 +6910,7 @@ window.VOCAB_DATA = [
   {
     "word": "barrel",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "たる",
       "1たる《+of+名》",
@@ -6561,6 +6929,7 @@ window.VOCAB_DATA = [
   {
     "word": "bass",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "バス",
       "バス（文脈依存）"
@@ -6578,6 +6947,7 @@ window.VOCAB_DATA = [
   {
     "word": "battlefield",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "戦場",
       "戦場（文脈依存）"
@@ -6595,6 +6965,7 @@ window.VOCAB_DATA = [
   {
     "word": "bay",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "月桂樹",
       "《複数形で》年桂冠"
@@ -6612,6 +6983,7 @@ window.VOCAB_DATA = [
   {
     "word": "beam",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "Cはり",
       "けた",
@@ -6630,6 +7002,7 @@ window.VOCAB_DATA = [
   {
     "word": "beast",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《文》動物",
       "四足獣",
@@ -6648,6 +7021,7 @@ window.VOCAB_DATA = [
   {
     "word": "behalf",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "大義",
       "大目的",
@@ -6666,6 +7040,7 @@ window.VOCAB_DATA = [
   {
     "word": "bench",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "ベンチ",
       "長いす",
@@ -6684,6 +7059,7 @@ window.VOCAB_DATA = [
   {
     "word": "benchmark",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "水準点",
       "基準"
@@ -6701,6 +7077,7 @@ window.VOCAB_DATA = [
   {
     "word": "beneficiary",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "利益を受ける人",
       "年金受取人"
@@ -6718,6 +7095,7 @@ window.VOCAB_DATA = [
   {
     "word": "biography",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C伝記",
       "U《集合的に》伝記文学"
@@ -6735,6 +7113,7 @@ window.VOCAB_DATA = [
   {
     "word": "bishop",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "主教",
       "監督",
@@ -6753,6 +7132,7 @@ window.VOCAB_DATA = [
   {
     "word": "blade",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "刀身",
       "葉身",
@@ -6771,6 +7151,7 @@ window.VOCAB_DATA = [
   {
     "word": "blast",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C一吹き",
       "一陣の風",
@@ -6789,6 +7170,7 @@ window.VOCAB_DATA = [
   {
     "word": "blend",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "…混ぜ合わせる",
       "…混ぜる《+名+with+名》",
@@ -6807,6 +7189,7 @@ window.VOCAB_DATA = [
   {
     "word": "blessing",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "神の況福を求める祈り",
       "祈り",
@@ -6825,6 +7208,7 @@ window.VOCAB_DATA = [
   {
     "word": "bonus",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "ボーナス",
       "特別手当",
@@ -6843,6 +7227,7 @@ window.VOCAB_DATA = [
   {
     "word": "boom",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "帆げた",
       "ブーム",
@@ -6861,6 +7246,7 @@ window.VOCAB_DATA = [
   {
     "word": "boundary",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "境界線",
       "限界"
@@ -6878,6 +7264,7 @@ window.VOCAB_DATA = [
   {
     "word": "bow",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《時に複数形で",
       "単数扱い》先端部",
@@ -6896,6 +7283,7 @@ window.VOCAB_DATA = [
   {
     "word": "breach",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "破ること",
       "破棄",
@@ -6914,6 +7302,7 @@ window.VOCAB_DATA = [
   {
     "word": "breakdown",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "故障",
       "破損",
@@ -6932,6 +7321,7 @@ window.VOCAB_DATA = [
   {
     "word": "breakthrough",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "敵陣突破",
       "突破",
@@ -6950,6 +7340,7 @@ window.VOCAB_DATA = [
   {
     "word": "breed",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "動物が子を生む",
       "繁殖する",
@@ -6968,6 +7359,7 @@ window.VOCAB_DATA = [
   {
     "word": "broadband",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "広帯域の",
       "広帯域の（文脈依存）"
@@ -6985,6 +7377,7 @@ window.VOCAB_DATA = [
   {
     "word": "browser",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《副詞を伴って》漫然とながめる",
       "ざっと目を通す",
@@ -7003,6 +7396,7 @@ window.VOCAB_DATA = [
   {
     "word": "buck",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《米俗》ドル",
       "札の配り番のしるしとなる物"
@@ -7020,6 +7414,7 @@ window.VOCAB_DATA = [
   {
     "word": "buddy",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《話》兄貴",
       "仲間",
@@ -7038,6 +7433,7 @@ window.VOCAB_DATA = [
   {
     "word": "buffer",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "ばかな老人",
       "やつ"
@@ -7055,6 +7451,7 @@ window.VOCAB_DATA = [
   {
     "word": "bulk",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "かさばっていること",
       "《the bulk》大部分",
@@ -7073,6 +7470,7 @@ window.VOCAB_DATA = [
   {
     "word": "burden",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C折り返し",
       "《the ~》くり返し説かれる要旨"
@@ -7090,6 +7488,7 @@ window.VOCAB_DATA = [
   {
     "word": "bureaucracy",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC官僚政治",
       "官僚制度",
@@ -7108,6 +7507,7 @@ window.VOCAB_DATA = [
   {
     "word": "burial",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "埋葬",
       "葬式"
@@ -7125,6 +7525,7 @@ window.VOCAB_DATA = [
   {
     "word": "cabinet",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "キャビネット",
       "《しばしばCabinet》《集合的に》《単数・複数扱い》内閣",
@@ -7143,6 +7544,7 @@ window.VOCAB_DATA = [
   {
     "word": "calculation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "見積もり",
       "算定",
@@ -7161,6 +7563,7 @@ window.VOCAB_DATA = [
   {
     "word": "canvas",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "Uズック",
       "帆布",
@@ -7179,6 +7582,7 @@ window.VOCAB_DATA = [
   {
     "word": "capability",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "能力",
       "才能",
@@ -7197,6 +7601,7 @@ window.VOCAB_DATA = [
   {
     "word": "capitalism",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "資本主義",
       "資本主義（文脈依存）"
@@ -7214,6 +7619,7 @@ window.VOCAB_DATA = [
   {
     "word": "cargo",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "積荷",
       "貨物"
@@ -7231,6 +7637,7 @@ window.VOCAB_DATA = [
   {
     "word": "carriage",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C四輪馬車",
       "C《米》うば車",
@@ -7249,6 +7656,7 @@ window.VOCAB_DATA = [
   {
     "word": "casino",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "カジノ",
       "カジノ（文脈依存）"
@@ -7266,6 +7674,7 @@ window.VOCAB_DATA = [
   {
     "word": "casualty",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "賜傷者負傷者",
       "被災者",
@@ -7284,6 +7693,7 @@ window.VOCAB_DATA = [
   {
     "word": "catalogue",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "目録",
       "カタログ",
@@ -7302,6 +7712,7 @@ window.VOCAB_DATA = [
   {
     "word": "caution",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U用心",
       "注意",
@@ -7320,6 +7731,7 @@ window.VOCAB_DATA = [
   {
     "word": "cemetery",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "共同墓地",
       "埋葬地"
@@ -7337,6 +7749,7 @@ window.VOCAB_DATA = [
   {
     "word": "chamber",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "部屋",
       "寝室",
@@ -7355,6 +7768,7 @@ window.VOCAB_DATA = [
   {
     "word": "chaos",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U混とん",
       "U混乱状態",
@@ -7373,6 +7787,7 @@ window.VOCAB_DATA = [
   {
     "word": "charm",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC魅力",
       "《複数形で》女の魅力",
@@ -7391,6 +7806,7 @@ window.VOCAB_DATA = [
   {
     "word": "charter",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "特許状",
       "免許状",
@@ -7409,6 +7825,7 @@ window.VOCAB_DATA = [
   {
     "word": "chunk",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "厚切り",
       "厚いかたまり《+of+名》",
@@ -7427,6 +7844,7 @@ window.VOCAB_DATA = [
   {
     "word": "circulation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U血液の循環",
       "血行",
@@ -7445,6 +7863,7 @@ window.VOCAB_DATA = [
   {
     "word": "citizenship",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "市民権",
       "公民権"
@@ -7462,6 +7881,7 @@ window.VOCAB_DATA = [
   {
     "word": "civilian",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "一般市民",
       "民間人",
@@ -7480,6 +7900,7 @@ window.VOCAB_DATA = [
   {
     "word": "clarity",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "明快さ",
       "明瞭",
@@ -7498,6 +7919,7 @@ window.VOCAB_DATA = [
   {
     "word": "clash",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "ガチャン)ガシャン",
       "ジャーン)という音",
@@ -7516,6 +7938,7 @@ window.VOCAB_DATA = [
   {
     "word": "classification",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC分類",
       "分類法",
@@ -7534,6 +7957,7 @@ window.VOCAB_DATA = [
   {
     "word": "closure",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U閉鎖",
       "閉店",
@@ -7552,6 +7976,7 @@ window.VOCAB_DATA = [
   {
     "word": "cluster",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "ふさ《+of+名》",
       "集団",
@@ -7570,6 +7995,7 @@ window.VOCAB_DATA = [
   {
     "word": "coalition",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "連立",
       "提携《+between+名》",
@@ -7588,6 +8014,7 @@ window.VOCAB_DATA = [
   {
     "word": "cocktail",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "カクテル",
       "前菜料理"
@@ -7605,6 +8032,7 @@ window.VOCAB_DATA = [
   {
     "word": "collaboration",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "共同",
       "協力",
@@ -7623,6 +8051,7 @@ window.VOCAB_DATA = [
   {
     "word": "collision",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "衝突《+of+名+with+名》",
       "衝突",
@@ -7641,6 +8070,7 @@ window.VOCAB_DATA = [
   {
     "word": "columnist",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "コラムニスト",
       "特約寄稿家"
@@ -7658,6 +8088,7 @@ window.VOCAB_DATA = [
   {
     "word": "combat",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "戦い",
       "戦闘",
@@ -7676,6 +8107,7 @@ window.VOCAB_DATA = [
   {
     "word": "commentary",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "注解",
       "注釈書",
@@ -7694,6 +8126,7 @@ window.VOCAB_DATA = [
   {
     "word": "commentator",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "注釈者",
       "解説者",
@@ -7712,6 +8145,7 @@ window.VOCAB_DATA = [
   {
     "word": "commerce",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "商業",
       "通商",
@@ -7730,6 +8164,7 @@ window.VOCAB_DATA = [
   {
     "word": "commissioner",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "委員",
       "理事",
@@ -7748,6 +8183,7 @@ window.VOCAB_DATA = [
   {
     "word": "commodity",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "日用品",
       "必需品",
@@ -7766,6 +8202,7 @@ window.VOCAB_DATA = [
   {
     "word": "companion",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "仲間",
       "連れ",
@@ -7784,6 +8221,7 @@ window.VOCAB_DATA = [
   {
     "word": "compassion",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "あわれみ",
       "深い同情《+on+名》"
@@ -7801,6 +8239,7 @@ window.VOCAB_DATA = [
   {
     "word": "compensation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UUC償い",
       "代償",
@@ -7819,6 +8258,7 @@ window.VOCAB_DATA = [
   {
     "word": "competence",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U能力",
       "適性・U権限・力量・《まれ》《a~》相当の資産"
@@ -7836,6 +8276,7 @@ window.VOCAB_DATA = [
   {
     "word": "complexity",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "複雑さ",
       "C複雑なもの"
@@ -7853,6 +8294,7 @@ window.VOCAB_DATA = [
   {
     "word": "compliance",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "承諾",
       "応諾",
@@ -7871,6 +8313,7 @@ window.VOCAB_DATA = [
   {
     "word": "complication",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC複雑",
       "粉糾",
@@ -7889,6 +8332,7 @@ window.VOCAB_DATA = [
   {
     "word": "composition",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U創作",
       "制作",
@@ -7907,6 +8351,7 @@ window.VOCAB_DATA = [
   {
     "word": "compromise",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC妥協",
       "和解",
@@ -7925,6 +8370,7 @@ window.VOCAB_DATA = [
   {
     "word": "conception",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U概念",
       "観念",
@@ -7943,6 +8389,7 @@ window.VOCAB_DATA = [
   {
     "word": "concession",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC譲歩",
       "容認《+to+名》",
@@ -7961,6 +8408,7 @@ window.VOCAB_DATA = [
   {
     "word": "confession",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "自白",
       "自認《+of+名》",
@@ -7979,6 +8427,7 @@ window.VOCAB_DATA = [
   {
     "word": "configuration",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "形状",
       "外形",
@@ -7997,6 +8446,7 @@ window.VOCAB_DATA = [
   {
     "word": "confirmation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "確認",
       "確証",
@@ -8015,6 +8465,7 @@ window.VOCAB_DATA = [
   {
     "word": "confrontation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "対決",
       "対面",
@@ -8033,6 +8484,7 @@ window.VOCAB_DATA = [
   {
     "word": "congregation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC集まり",
       "集合",
@@ -8051,6 +8503,7 @@ window.VOCAB_DATA = [
   {
     "word": "conscience",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "良心",
       "道義心",
@@ -8069,6 +8522,7 @@ window.VOCAB_DATA = [
   {
     "word": "consciousness",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "意識",
       "知覚",
@@ -8087,6 +8541,7 @@ window.VOCAB_DATA = [
   {
     "word": "consensus",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "一致",
       "調和《+of+名》",
@@ -8105,6 +8560,7 @@ window.VOCAB_DATA = [
   {
     "word": "consent",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "同意する",
       "承諾する《+to+名》",
@@ -8123,6 +8579,7 @@ window.VOCAB_DATA = [
   {
     "word": "consistency",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U一致",
       "一貫性",
@@ -8141,6 +8598,7 @@ window.VOCAB_DATA = [
   {
     "word": "constituency",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C選挙区",
       "U《集合的に》選挙民",
@@ -8159,6 +8617,7 @@ window.VOCAB_DATA = [
   {
     "word": "constitution",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U構成",
       "構造《+of+名》",
@@ -8177,6 +8636,7 @@ window.VOCAB_DATA = [
   {
     "word": "constraint",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC強制",
       "無理じい",
@@ -8195,6 +8655,7 @@ window.VOCAB_DATA = [
   {
     "word": "consultation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC相談",
       "協議《+with+名》",
@@ -8213,6 +8674,7 @@ window.VOCAB_DATA = [
   {
     "word": "contempt",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《時に形容詞を伴って",
       "a~》軽べつ",
@@ -8231,6 +8693,7 @@ window.VOCAB_DATA = [
   {
     "word": "contender",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "競技者《+for+名》",
       "競技者《+for+名》（文脈依存）"
@@ -8248,6 +8711,7 @@ window.VOCAB_DATA = [
   {
     "word": "contention",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "競争",
       "論争",
@@ -8266,6 +8730,7 @@ window.VOCAB_DATA = [
   {
     "word": "contractor",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "契約人",
       "請負人",
@@ -8284,6 +8749,7 @@ window.VOCAB_DATA = [
   {
     "word": "contradiction",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "否定",
       "反ばく",
@@ -8302,6 +8768,7 @@ window.VOCAB_DATA = [
   {
     "word": "contrary",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "板抵の",
       "相いれない",
@@ -8320,6 +8787,7 @@ window.VOCAB_DATA = [
   {
     "word": "contributor",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "寄付者《+to+名》",
       "貢献者",
@@ -8338,6 +8806,7 @@ window.VOCAB_DATA = [
   {
     "word": "conversion",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC転換",
       "変換",
@@ -8356,6 +8825,7 @@ window.VOCAB_DATA = [
   {
     "word": "conviction",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC確信",
       "自信",
@@ -8374,6 +8844,7 @@ window.VOCAB_DATA = [
   {
     "word": "coordination",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "同等",
       "整合",
@@ -8392,6 +8863,7 @@ window.VOCAB_DATA = [
   {
     "word": "coordinator",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "調和させる人",
       "調和させる人（文脈依存）"
@@ -8409,6 +8881,7 @@ window.VOCAB_DATA = [
   {
     "word": "cop",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "…捕らえる",
       "…捕らえる（文脈依存）"
@@ -8426,6 +8899,7 @@ window.VOCAB_DATA = [
   {
     "word": "copper",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "ポリ公",
       "ポリ公（文脈依存）"
@@ -8443,6 +8917,7 @@ window.VOCAB_DATA = [
   {
     "word": "copyright",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "著作権",
       "版権",
@@ -8461,6 +8936,7 @@ window.VOCAB_DATA = [
   {
     "word": "correction",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U訂正",
       "修正",
@@ -8479,6 +8955,7 @@ window.VOCAB_DATA = [
   {
     "word": "correlation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C相互関係《+between+名》",
       "関連《+with+名》",
@@ -8497,6 +8974,7 @@ window.VOCAB_DATA = [
   {
     "word": "correspondence",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "一致",
       "調和類似《+between+名》",
@@ -8515,6 +8993,7 @@ window.VOCAB_DATA = [
   {
     "word": "correspondent",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "文通する人",
       "手紙を書く人",
@@ -8533,6 +9012,7 @@ window.VOCAB_DATA = [
   {
     "word": "corruption",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "不正行為",
       "汚職",
@@ -8551,6 +9031,7 @@ window.VOCAB_DATA = [
   {
     "word": "councillor",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "議員",
       "評議員",
@@ -8569,6 +9050,7 @@ window.VOCAB_DATA = [
   {
     "word": "counselling",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "カウンセリング",
       "カウンセリング（文脈依存）"
@@ -8586,6 +9068,7 @@ window.VOCAB_DATA = [
   {
     "word": "counsellor",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "助言者",
       "相談相手",
@@ -8604,6 +9087,7 @@ window.VOCAB_DATA = [
   {
     "word": "counterpart",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "1通",
       "副本",
@@ -8622,6 +9106,7 @@ window.VOCAB_DATA = [
   {
     "word": "coup",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "不意に一激",
       "大当たり",
@@ -8640,6 +9125,7 @@ window.VOCAB_DATA = [
   {
     "word": "courtesy",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U礼儀",
       "丁重",
@@ -8658,6 +9144,7 @@ window.VOCAB_DATA = [
   {
     "word": "creator",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "創造者",
       "創作者",
@@ -8676,6 +9163,7 @@ window.VOCAB_DATA = [
   {
     "word": "credibility",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "信用できること",
       "確実性"
@@ -8693,6 +9181,7 @@ window.VOCAB_DATA = [
   {
     "word": "critique",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C評論",
       "U論評",
@@ -8711,6 +9200,7 @@ window.VOCAB_DATA = [
   {
     "word": "crown",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C王冠・《the~",
       "C-》王位",
@@ -8729,6 +9219,7 @@ window.VOCAB_DATA = [
   {
     "word": "crystal",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U水晶",
       "C水晶製品",
@@ -8747,6 +9238,7 @@ window.VOCAB_DATA = [
   {
     "word": "cult",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "儀式",
       "信仰",
@@ -8765,6 +9257,7 @@ window.VOCAB_DATA = [
   {
     "word": "curiosity",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U《ときにa~》好奇心",
       "物好き",
@@ -8783,6 +9276,7 @@ window.VOCAB_DATA = [
   {
     "word": "custody",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "管理",
       "保管",
@@ -8801,6 +9295,7 @@ window.VOCAB_DATA = [
   {
     "word": "cutting",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC切ること",
       "切断",
@@ -8819,6 +9314,7 @@ window.VOCAB_DATA = [
   {
     "word": "dam",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "母親",
       "雌親"
@@ -8836,6 +9332,7 @@ window.VOCAB_DATA = [
   {
     "word": "dawn",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC夜明け",
       "《the ~》始まり",
@@ -8854,6 +9351,7 @@ window.VOCAB_DATA = [
   {
     "word": "debris",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "破片",
       "残骸"
@@ -8871,6 +9369,7 @@ window.VOCAB_DATA = [
   {
     "word": "debut",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "社交界へ初めて出ること",
       "初舞台",
@@ -8889,6 +9388,7 @@ window.VOCAB_DATA = [
   {
     "word": "declaration",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U宣言",
       "発表",
@@ -8907,6 +9407,7 @@ window.VOCAB_DATA = [
   {
     "word": "dedication",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U奉納",
       "献納",
@@ -8925,6 +9426,7 @@ window.VOCAB_DATA = [
   {
     "word": "deed",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "行為",
       "行動",
@@ -8943,6 +9445,7 @@ window.VOCAB_DATA = [
   {
     "word": "default",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "不履行",
       "怠慢《+on+名》",
@@ -8961,6 +9464,7 @@ window.VOCAB_DATA = [
   {
     "word": "defect",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C欠点",
       "弱点",
@@ -8979,6 +9483,7 @@ window.VOCAB_DATA = [
   {
     "word": "deficiency",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC不足",
       "欠乏《+of+名》",
@@ -8997,6 +9502,7 @@ window.VOCAB_DATA = [
   {
     "word": "deficit",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "不足額",
       "赤字"
@@ -9014,6 +9520,7 @@ window.VOCAB_DATA = [
   {
     "word": "delegate",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "代表",
       "使節《+to+名》",
@@ -9032,6 +9539,7 @@ window.VOCAB_DATA = [
   {
     "word": "delegation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U代表派遣",
       "代表任命",
@@ -9050,6 +9558,7 @@ window.VOCAB_DATA = [
   {
     "word": "demon",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "悪霊",
       "悪魔",
@@ -9068,6 +9577,7 @@ window.VOCAB_DATA = [
   {
     "word": "denial",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC否定",
       "否認《+of+名》",
@@ -9086,6 +9596,7 @@ window.VOCAB_DATA = [
   {
     "word": "density",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U密集",
       "密度",
@@ -9104,6 +9615,7 @@ window.VOCAB_DATA = [
   {
     "word": "dependence",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "頼ること",
       "依存",
@@ -9122,6 +9634,7 @@ window.VOCAB_DATA = [
   {
     "word": "deployment",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "展開",
       "散開"
@@ -9139,6 +9652,7 @@ window.VOCAB_DATA = [
   {
     "word": "deputy",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "代理人",
       "代表者",
@@ -9157,6 +9671,7 @@ window.VOCAB_DATA = [
   {
     "word": "descent",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC降下",
       "C下り坂",
@@ -9175,6 +9690,7 @@ window.VOCAB_DATA = [
   {
     "word": "detection",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "発見",
       "探知",
@@ -9193,6 +9709,7 @@ window.VOCAB_DATA = [
   {
     "word": "detention",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "引き留めること",
       "遅延",
@@ -9211,6 +9728,7 @@ window.VOCAB_DATA = [
   {
     "word": "devil",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "悪魔",
       "悪鬼",
@@ -9229,6 +9747,7 @@ window.VOCAB_DATA = [
   {
     "word": "diagnosis",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "診断",
       "判断",
@@ -9247,6 +9766,7 @@ window.VOCAB_DATA = [
   {
     "word": "dictator",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "独裁者",
       "専制者",
@@ -9265,6 +9785,7 @@ window.VOCAB_DATA = [
   {
     "word": "dignity",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U尊厳",
       "威厳",
@@ -9283,6 +9804,7 @@ window.VOCAB_DATA = [
   {
     "word": "dilemma",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "板ばさみ",
       "抜きさしならない羽目",
@@ -9301,6 +9823,7 @@ window.VOCAB_DATA = [
   {
     "word": "dimension",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C寸法",
       "《通例複数形で》大きさ",
@@ -9319,6 +9842,7 @@ window.VOCAB_DATA = [
   {
     "word": "diplomat",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "外交官",
       "外交家",
@@ -9337,6 +9861,7 @@ window.VOCAB_DATA = [
   {
     "word": "directory",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "人名薄",
       "住所録",
@@ -9355,6 +9880,7 @@ window.VOCAB_DATA = [
   {
     "word": "disclosure",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U露見",
       "暴露",
@@ -9373,6 +9899,7 @@ window.VOCAB_DATA = [
   {
     "word": "discourse",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C講演",
       "講話",
@@ -9391,6 +9918,7 @@ window.VOCAB_DATA = [
   {
     "word": "discretion",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "分別",
       "慎重さ",
@@ -9409,6 +9937,7 @@ window.VOCAB_DATA = [
   {
     "word": "discrimination",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "区別すること",
       "差別待遇《+against+名》",
@@ -9427,6 +9956,7 @@ window.VOCAB_DATA = [
   {
     "word": "dismissal",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "解散",
       "退去",
@@ -9445,6 +9975,7 @@ window.VOCAB_DATA = [
   {
     "word": "disposal",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "配置",
       "配列",
@@ -9463,6 +9994,7 @@ window.VOCAB_DATA = [
   {
     "word": "dispute",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "…‘を'議論する",
       "討議する",
@@ -9481,6 +10013,7 @@ window.VOCAB_DATA = [
   {
     "word": "disruption",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "混乱",
       "中断",
@@ -9499,6 +10032,7 @@ window.VOCAB_DATA = [
   {
     "word": "distinction",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC区別",
       "差異",
@@ -9517,6 +10051,7 @@ window.VOCAB_DATA = [
   {
     "word": "distress",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U激しい苦しみ",
       "苦痛",
@@ -9535,6 +10070,7 @@ window.VOCAB_DATA = [
   {
     "word": "doctrine",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC教義",
       "主義",
@@ -9553,6 +10089,7 @@ window.VOCAB_DATA = [
   {
     "word": "documentation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "文書調べ",
       "文書による証拠固め",
@@ -9571,6 +10108,7 @@ window.VOCAB_DATA = [
   {
     "word": "domain",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "領地",
       "領土",
@@ -9589,6 +10127,7 @@ window.VOCAB_DATA = [
   {
     "word": "dominance",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "優越",
       "優勢",
@@ -9607,6 +10146,7 @@ window.VOCAB_DATA = [
   {
     "word": "donor",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "寄付者",
       "寄贈者",
@@ -9625,6 +10165,7 @@ window.VOCAB_DATA = [
   {
     "word": "dose",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "服用量",
       "1回分",
@@ -9643,6 +10184,7 @@ window.VOCAB_DATA = [
   {
     "word": "duo",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《話》一組",
       "一対"
@@ -9660,6 +10202,7 @@ window.VOCAB_DATA = [
   {
     "word": "dynamic",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "動力の",
       "動的な",
@@ -9678,6 +10221,7 @@ window.VOCAB_DATA = [
   {
     "word": "earnings",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "収入",
       "所得",
@@ -9696,6 +10240,7 @@ window.VOCAB_DATA = [
   {
     "word": "ease",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "気楽さ",
       "楽であること",
@@ -9714,6 +10259,7 @@ window.VOCAB_DATA = [
   {
     "word": "echo",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "CU反響",
       "こだま",
@@ -9732,6 +10278,7 @@ window.VOCAB_DATA = [
   {
     "word": "educator",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "教育者",
       "教師",
@@ -9750,6 +10297,7 @@ window.VOCAB_DATA = [
   {
     "word": "efficiency",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "能率",
       "能力",
@@ -9768,6 +10316,7 @@ window.VOCAB_DATA = [
   {
     "word": "ego",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC自我",
       "《しばしばE・go》主観",
@@ -9786,6 +10335,7 @@ window.VOCAB_DATA = [
   {
     "word": "elite",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《the ~》《複数扱い》えり扱きの人々",
       "エリート",
@@ -9804,6 +10354,7 @@ window.VOCAB_DATA = [
   {
     "word": "embarrassment",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U困惑",
       "当惑",
@@ -9822,6 +10373,7 @@ window.VOCAB_DATA = [
   {
     "word": "embassy",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C大使館",
       "U大使の任務",
@@ -9840,6 +10392,7 @@ window.VOCAB_DATA = [
   {
     "word": "emergence",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "出現",
       "出現（文脈依存）"
@@ -9857,6 +10410,7 @@ window.VOCAB_DATA = [
   {
     "word": "encouragement",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U激励",
       "奨励",
@@ -9875,6 +10429,7 @@ window.VOCAB_DATA = [
   {
     "word": "endeavour",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "努力する",
       "努力"
@@ -9892,6 +10447,7 @@ window.VOCAB_DATA = [
   {
     "word": "endorsement",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "裏書き",
       "是認",
@@ -9910,6 +10466,7 @@ window.VOCAB_DATA = [
   {
     "word": "enforcement",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "実施",
       "施行",
@@ -9928,6 +10485,7 @@ window.VOCAB_DATA = [
   {
     "word": "engagement",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C約束",
       "契約",
@@ -9946,6 +10504,7 @@ window.VOCAB_DATA = [
   {
     "word": "enterprise",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C事業",
       "企て",
@@ -9964,6 +10523,7 @@ window.VOCAB_DATA = [
   {
     "word": "enthusiast",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "…狂",
       "熱中している人《+about+名》"
@@ -9981,6 +10541,7 @@ window.VOCAB_DATA = [
   {
     "word": "entity",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "実在するもの",
       "実体"
@@ -9998,6 +10559,7 @@ window.VOCAB_DATA = [
   {
     "word": "epidemic",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "伝染性の",
       "急速に広がる",
@@ -10016,6 +10578,7 @@ window.VOCAB_DATA = [
   {
     "word": "equality",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "等しいこと",
       "均等",
@@ -10034,6 +10597,7 @@ window.VOCAB_DATA = [
   {
     "word": "equation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "等式",
       "方程式"
@@ -10051,6 +10615,7 @@ window.VOCAB_DATA = [
   {
     "word": "essence",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U本質",
       "真髄《+of+名》",
@@ -10069,6 +10634,7 @@ window.VOCAB_DATA = [
   {
     "word": "establishment",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U設立",
       "設置",
@@ -10087,6 +10653,7 @@ window.VOCAB_DATA = [
   {
     "word": "excellence",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "優秀さ",
       "卓越《+in+名》",
@@ -10105,6 +10672,7 @@ window.VOCAB_DATA = [
   {
     "word": "excess",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U《時にan~》超過《+of+名+over+名》",
       "U不節制《+at+名",
@@ -10123,6 +10691,7 @@ window.VOCAB_DATA = [
   {
     "word": "exclusion",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "除外すること《+of+名+from+名》",
       "除外すること《+of+名+from+名》（文脈依存）"
@@ -10140,6 +10709,7 @@ window.VOCAB_DATA = [
   {
     "word": "execution",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U実行",
       "遂行《+of+名》",
@@ -10158,6 +10728,7 @@ window.VOCAB_DATA = [
   {
     "word": "exile",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U国外追放",
       "亡命",
@@ -10176,6 +10747,7 @@ window.VOCAB_DATA = [
   {
     "word": "expenditure",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U消費",
       "支出《+of+名+on+名》",
@@ -10194,6 +10766,7 @@ window.VOCAB_DATA = [
   {
     "word": "exploitation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "開発",
       "活用《+of+名》",
@@ -10212,6 +10785,7 @@ window.VOCAB_DATA = [
   {
     "word": "explosive",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "爆発の",
       "爆発的な",
@@ -10230,6 +10804,7 @@ window.VOCAB_DATA = [
   {
     "word": "extremist",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "過激論者",
       "過激主義者"
@@ -10247,6 +10822,7 @@ window.VOCAB_DATA = [
   {
     "word": "faction",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C派閥",
       "徒党",
@@ -10265,6 +10841,7 @@ window.VOCAB_DATA = [
   {
     "word": "faculty",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C才能",
       "能力《+for+名》",
@@ -10283,6 +10860,7 @@ window.VOCAB_DATA = [
   {
     "word": "fairness",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《古》美しさ",
       "色白",
@@ -10301,6 +10879,7 @@ window.VOCAB_DATA = [
   {
     "word": "fate",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U運命",
       "宿命",
@@ -10319,6 +10898,7 @@ window.VOCAB_DATA = [
   {
     "word": "feat",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "手柄",
       "功績",
@@ -10337,6 +10917,7 @@ window.VOCAB_DATA = [
   {
     "word": "feminist",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "博女同権主義者",
       "女性解放論者"
@@ -10354,6 +10935,7 @@ window.VOCAB_DATA = [
   {
     "word": "filter",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "ろ過器",
       "ろ過装置",
@@ -10372,6 +10954,7 @@ window.VOCAB_DATA = [
   {
     "word": "fine",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "りっぱな",
       "みごとな",
@@ -10390,6 +10973,7 @@ window.VOCAB_DATA = [
   {
     "word": "fit",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "発作",
       "一時的な爆発《+of+名》"
@@ -10407,6 +10991,7 @@ window.VOCAB_DATA = [
   {
     "word": "fixture",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "付属設備",
       "長く留まっている人",
@@ -10425,6 +11010,7 @@ window.VOCAB_DATA = [
   {
     "word": "flaw",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "割れ目",
       "ひび",
@@ -10443,6 +11029,7 @@ window.VOCAB_DATA = [
   {
     "word": "fleet",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "速い",
       "すばやく動く"
@@ -10460,6 +11047,7 @@ window.VOCAB_DATA = [
   {
     "word": "flesh",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "食肉",
       "肉付き",
@@ -10478,6 +11066,7 @@ window.VOCAB_DATA = [
   {
     "word": "flexibility",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "柔軟性",
       "しなやかさ",
@@ -10496,6 +11085,7 @@ window.VOCAB_DATA = [
   {
     "word": "fluid",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "流体",
       "流動体",
@@ -10514,6 +11104,7 @@ window.VOCAB_DATA = [
   {
     "word": "footage",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "フィート数",
       "全長",
@@ -10532,6 +11123,7 @@ window.VOCAB_DATA = [
   {
     "word": "foreigner",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "外国人",
       "外国から来た物"
@@ -10549,6 +11141,7 @@ window.VOCAB_DATA = [
   {
     "word": "formula",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "決まった言い方",
       "空虚な言葉",
@@ -10567,6 +11160,7 @@ window.VOCAB_DATA = [
   {
     "word": "franchise",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C《おもに米》免許",
       "一手販売権《+of+名》",
@@ -10585,6 +11179,7 @@ window.VOCAB_DATA = [
   {
     "word": "frustration",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U失敗",
       "ざ折",
@@ -10603,6 +11198,7 @@ window.VOCAB_DATA = [
   {
     "word": "funeral",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "葬式",
       "葬儀",
@@ -10621,6 +11217,7 @@ window.VOCAB_DATA = [
   {
     "word": "gallon",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "ガロン",
       "ガロン（文脈依存）"
@@ -10638,6 +11235,7 @@ window.VOCAB_DATA = [
   {
     "word": "gambling",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "かけごとをすること",
       "かけごとをすること（文脈依存）"
@@ -10655,6 +11253,7 @@ window.VOCAB_DATA = [
   {
     "word": "gathering",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U集めること",
       "集まること《+of+名》",
@@ -10673,6 +11272,7 @@ window.VOCAB_DATA = [
   {
     "word": "gaze",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "じっと見つめる",
       "凝視する《+at+名》",
@@ -10691,6 +11291,7 @@ window.VOCAB_DATA = [
   {
     "word": "gear",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C歯車",
       "ギヤ",
@@ -10709,6 +11310,7 @@ window.VOCAB_DATA = [
   {
     "word": "genocide",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "大虐殺",
       "集団虐殺"
@@ -10726,6 +11328,7 @@ window.VOCAB_DATA = [
   {
     "word": "glance",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "ちらっと見る",
       "一目見る",
@@ -10744,6 +11347,7 @@ window.VOCAB_DATA = [
   {
     "word": "glimpse",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "ちらりと見ること",
       "いちべつすること《+of+名》",
@@ -10762,6 +11366,7 @@ window.VOCAB_DATA = [
   {
     "word": "glory",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U光栄",
       "名誉",
@@ -10780,6 +11385,7 @@ window.VOCAB_DATA = [
   {
     "word": "governance",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "支配すること",
       "支配されている状態"
@@ -10797,6 +11403,7 @@ window.VOCAB_DATA = [
   {
     "word": "grace",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U優雅さ",
       "洗練",
@@ -10815,6 +11422,7 @@ window.VOCAB_DATA = [
   {
     "word": "grasp",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "…‘を'しっかり握る",
       "ぎゅっとつかむ",
@@ -10833,6 +11441,7 @@ window.VOCAB_DATA = [
   {
     "word": "grave",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "…‘を'刻みつける",
       "銘記する《+名+on+名》"
@@ -10850,6 +11459,7 @@ window.VOCAB_DATA = [
   {
     "word": "gravity",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "引力",
       "重力",
@@ -10868,6 +11478,7 @@ window.VOCAB_DATA = [
   {
     "word": "grid",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "格子",
       "焼き網",
@@ -10886,6 +11497,7 @@ window.VOCAB_DATA = [
   {
     "word": "grief",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U深い悲しみ",
       "悲嘆《+at+名》",
@@ -10904,6 +11516,7 @@ window.VOCAB_DATA = [
   {
     "word": "grin",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "歯を見せて笑う《+at+名》",
       "歯をむき出す《+at+名》",
@@ -10922,6 +11535,7 @@ window.VOCAB_DATA = [
   {
     "word": "grip",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《単数形で》しっかり握ること《+on+名》",
       "握り方",
@@ -10940,6 +11554,7 @@ window.VOCAB_DATA = [
   {
     "word": "guerrilla",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "ゲリラ兵",
       "遊撃兵",
@@ -10958,6 +11573,7 @@ window.VOCAB_DATA = [
   {
     "word": "guidance",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "指導",
       "案内",
@@ -10976,6 +11592,7 @@ window.VOCAB_DATA = [
   {
     "word": "guilt",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "有罪",
       "犯罪",
@@ -10994,6 +11611,7 @@ window.VOCAB_DATA = [
   {
     "word": "gut",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《複数形で》内臓",
       "腹わた",
@@ -11012,6 +11630,7 @@ window.VOCAB_DATA = [
   {
     "word": "halt",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "脚の不自由な人",
       "脚の不自由な人（文脈依存）"
@@ -11029,6 +11648,7 @@ window.VOCAB_DATA = [
   {
     "word": "handful",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "一握り",
       "一つかみ《+of+名》",
@@ -11047,6 +11667,7 @@ window.VOCAB_DATA = [
   {
     "word": "handling",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "取って",
       "ハンドル",
@@ -11065,6 +11686,7 @@ window.VOCAB_DATA = [
   {
     "word": "harassment",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "悩ませること",
       "悩むこと",
@@ -11083,6 +11705,7 @@ window.VOCAB_DATA = [
   {
     "word": "hardware",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《集合的に》金物類",
       "鉄器類",
@@ -11101,6 +11724,7 @@ window.VOCAB_DATA = [
   {
     "word": "harmony",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U調和",
       "一致",
@@ -11119,6 +11743,7 @@ window.VOCAB_DATA = [
   {
     "word": "harvest",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C収穫",
       "取り入れ",
@@ -11137,6 +11762,7 @@ window.VOCAB_DATA = [
   {
     "word": "hatred",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "憎しみ",
       "憎悪",
@@ -11155,6 +11781,7 @@ window.VOCAB_DATA = [
   {
     "word": "hazard",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "危険",
       "冒険",
@@ -11173,6 +11800,7 @@ window.VOCAB_DATA = [
   {
     "word": "heritage",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "世襲財産",
       "祖先から伝えられたもの",
@@ -11191,6 +11819,7 @@ window.VOCAB_DATA = [
   {
     "word": "hierarchy",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "聖職の階級組織",
       "聖職位階制政治",
@@ -11209,6 +11838,7 @@ window.VOCAB_DATA = [
   {
     "word": "hint",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "暗示",
       "ほのめかし",
@@ -11227,6 +11857,7 @@ window.VOCAB_DATA = [
   {
     "word": "homeland",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "故国",
       "自国"
@@ -11244,6 +11875,7 @@ window.VOCAB_DATA = [
   {
     "word": "horizon",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "地平線",
       "水平線",
@@ -11262,6 +11894,7 @@ window.VOCAB_DATA = [
   {
     "word": "horn",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C角",
       "触角",
@@ -11280,6 +11913,7 @@ window.VOCAB_DATA = [
   {
     "word": "hostage",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "人質",
       "人質（文脈依存）"
@@ -11297,6 +11931,7 @@ window.VOCAB_DATA = [
   {
     "word": "hostility",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U敵意",
       "敵がい心《+toward+名》",
@@ -11315,6 +11950,7 @@ window.VOCAB_DATA = [
   {
     "word": "humanity",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U人間性",
       "人間らしさ",
@@ -11333,6 +11969,7 @@ window.VOCAB_DATA = [
   {
     "word": "hydrogen",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "水素",
       "水素（文脈依存）"
@@ -11350,6 +11987,7 @@ window.VOCAB_DATA = [
   {
     "word": "identification",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U同一であることの確認",
       "身元確認",
@@ -11368,6 +12006,7 @@ window.VOCAB_DATA = [
   {
     "word": "ideology",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "Cイデオロギー",
       "U《軽蔑して》空理",
@@ -11386,6 +12025,7 @@ window.VOCAB_DATA = [
   {
     "word": "idiot",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "白痴",
       "《話》ばか"
@@ -11403,6 +12043,7 @@ window.VOCAB_DATA = [
   {
     "word": "ignorance",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "無学",
       "無知",
@@ -11421,6 +12062,7 @@ window.VOCAB_DATA = [
   {
     "word": "imagery",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《集合的に》像",
       "心像",
@@ -11439,6 +12081,7 @@ window.VOCAB_DATA = [
   {
     "word": "imprisonment",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "投獄",
       "監禁"
@@ -11456,6 +12099,7 @@ window.VOCAB_DATA = [
   {
     "word": "inability",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "無力",
       "無能",
@@ -11474,6 +12118,7 @@ window.VOCAB_DATA = [
   {
     "word": "incidence",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "発生率",
       "頻度",
@@ -11492,6 +12137,7 @@ window.VOCAB_DATA = [
   {
     "word": "inclusion",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U中に含めること",
       "包含《+of+名》",
@@ -11510,6 +12156,7 @@ window.VOCAB_DATA = [
   {
     "word": "indicator",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "指示する人",
       "指示器",
@@ -11528,6 +12175,7 @@ window.VOCAB_DATA = [
   {
     "word": "indictment",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U起訴",
       "告発",
@@ -11546,6 +12194,7 @@ window.VOCAB_DATA = [
   {
     "word": "inequality",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC等しくないこと",
       "不平等",
@@ -11564,6 +12213,7 @@ window.VOCAB_DATA = [
   {
     "word": "infant",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "乳児",
       "乳飲み子",
@@ -11582,6 +12232,7 @@ window.VOCAB_DATA = [
   {
     "word": "injection",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC注射",
       "注入",
@@ -11600,6 +12251,7 @@ window.VOCAB_DATA = [
   {
     "word": "injustice",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U不正",
       "不便",
@@ -11618,6 +12270,7 @@ window.VOCAB_DATA = [
   {
     "word": "inmate",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "入院者",
       "収容者",
@@ -11636,6 +12289,7 @@ window.VOCAB_DATA = [
   {
     "word": "insertion",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U挿入",
       "差し込み",
@@ -11654,6 +12308,7 @@ window.VOCAB_DATA = [
   {
     "word": "insider",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "内部の人",
       "会員",
@@ -11672,6 +12327,7 @@ window.VOCAB_DATA = [
   {
     "word": "inspection",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "検査",
       "点検",
@@ -11690,6 +12346,7 @@ window.VOCAB_DATA = [
   {
     "word": "inspiration",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U霊感",
       "インスピレーション",
@@ -11708,6 +12365,7 @@ window.VOCAB_DATA = [
   {
     "word": "instinct",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "満ちた《+with+名》",
       "満ちた《+with+名》（文脈依存）"
@@ -11725,6 +12383,7 @@ window.VOCAB_DATA = [
   {
     "word": "insult",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "人・物など‘を'侮辱する",
       "はずかしめる",
@@ -11743,6 +12402,7 @@ window.VOCAB_DATA = [
   {
     "word": "intake",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C取り入れ口",
       "C取り入れ",
@@ -11761,6 +12421,7 @@ window.VOCAB_DATA = [
   {
     "word": "integration",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "統合",
       "集成",
@@ -11779,6 +12440,7 @@ window.VOCAB_DATA = [
   {
     "word": "integrity",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "完全",
       "無欠",
@@ -11797,6 +12459,7 @@ window.VOCAB_DATA = [
   {
     "word": "intellectual",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "知的な",
       "知力のいる",
@@ -11815,6 +12478,7 @@ window.VOCAB_DATA = [
   {
     "word": "intensity",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "強烈さ",
       "熱烈さ",
@@ -11833,6 +12497,7 @@ window.VOCAB_DATA = [
   {
     "word": "intent",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "一心に向けた",
       "熱心な"
@@ -11850,6 +12515,7 @@ window.VOCAB_DATA = [
   {
     "word": "interface",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "中間面",
       "界面・（異なる物の）境界面",
@@ -11868,6 +12534,7 @@ window.VOCAB_DATA = [
   {
     "word": "interference",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U干渉",
       "口出し",
@@ -11886,6 +12553,7 @@ window.VOCAB_DATA = [
   {
     "word": "interior",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U内部",
       "内側",
@@ -11904,6 +12572,7 @@ window.VOCAB_DATA = [
   {
     "word": "intervention",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "間に入ること干渉",
       "調停",
@@ -11922,6 +12591,7 @@ window.VOCAB_DATA = [
   {
     "word": "investigator",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "調査者",
       "研究者"
@@ -11939,6 +12609,7 @@ window.VOCAB_DATA = [
   {
     "word": "involvement",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "関連",
       "関与",
@@ -11957,6 +12628,7 @@ window.VOCAB_DATA = [
   {
     "word": "irony",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U皮肉",
       "風刺",
@@ -11975,6 +12647,7 @@ window.VOCAB_DATA = [
   {
     "word": "isolation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "孤立",
       "隔離",
@@ -11993,6 +12666,7 @@ window.VOCAB_DATA = [
   {
     "word": "junction",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC連結すること",
       "結合",
@@ -12011,6 +12685,7 @@ window.VOCAB_DATA = [
   {
     "word": "jurisdiction",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "司法権",
       "裁判権",
@@ -12029,6 +12704,7 @@ window.VOCAB_DATA = [
   {
     "word": "justification",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "正当化すること",
       "正当化",
@@ -12047,6 +12723,7 @@ window.VOCAB_DATA = [
   {
     "word": "kidney",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "腎臓",
       "羊の腎臓",
@@ -12065,6 +12742,7 @@ window.VOCAB_DATA = [
   {
     "word": "kingdom",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C王国",
       "C分野",
@@ -12083,6 +12761,7 @@ window.VOCAB_DATA = [
   {
     "word": "lad",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "若者",
       "少年",
@@ -12101,6 +12780,7 @@ window.VOCAB_DATA = [
   {
     "word": "landlord",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "家主",
       "主人",
@@ -12119,6 +12799,7 @@ window.VOCAB_DATA = [
   {
     "word": "landmark",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "境界標識",
       "陸標",
@@ -12137,6 +12818,7 @@ window.VOCAB_DATA = [
   {
     "word": "lap",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "犬などが液体‘を'なめて飲む",
       "ペロペロなめる《+up+名",
@@ -12155,6 +12837,7 @@ window.VOCAB_DATA = [
   {
     "word": "laser",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "レーザー",
       "レーザー（文脈依存）"
@@ -12172,6 +12855,7 @@ window.VOCAB_DATA = [
   {
     "word": "latter",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《the",
       "thisまたはtheseと共に名詞の前にのみ用いて》後半の",
@@ -12190,6 +12874,7 @@ window.VOCAB_DATA = [
   {
     "word": "lawn",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "ローン",
       "ローン（文脈依存）"
@@ -12207,6 +12892,7 @@ window.VOCAB_DATA = [
   {
     "word": "lawsuit",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "訴訟",
       "訴訟（文脈依存）"
@@ -12224,6 +12910,7 @@ window.VOCAB_DATA = [
   {
     "word": "layout",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "設計《+of+名》",
       "割り付け",
@@ -12242,6 +12929,7 @@ window.VOCAB_DATA = [
   {
     "word": "leak",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "UC漏れること",
       "C漏れ口",
@@ -12260,6 +12948,7 @@ window.VOCAB_DATA = [
   {
     "word": "leap",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《しばしば副詞を伴って》ぴょんと飛ぶ",
       "はねる",
@@ -12278,6 +12967,7 @@ window.VOCAB_DATA = [
   {
     "word": "legacy",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "遺産",
       "遺産（文脈依存）"
@@ -12295,6 +12985,7 @@ window.VOCAB_DATA = [
   {
     "word": "legislation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "立法",
       "法律制定",
@@ -12313,6 +13004,7 @@ window.VOCAB_DATA = [
   {
     "word": "legislature",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "《the ~》立法府",
       "立法機関",
@@ -12331,6 +13023,7 @@ window.VOCAB_DATA = [
   {
     "word": "liberal",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "自由主義の",
       "寛大な",
@@ -12349,6 +13042,7 @@ window.VOCAB_DATA = [
   {
     "word": "liberation",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "解放",
       "釈放",
@@ -12367,6 +13061,7 @@ window.VOCAB_DATA = [
   {
     "word": "liberty",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U自由",
       "独立",
@@ -12385,6 +13080,7 @@ window.VOCAB_DATA = [
   {
     "word": "likelihood",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "ありそうなこと",
       "見込み",
@@ -12403,6 +13099,7 @@ window.VOCAB_DATA = [
   {
     "word": "limb",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "手足",
       "大枝"
@@ -12420,6 +13117,7 @@ window.VOCAB_DATA = [
   {
     "word": "listing",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "U表の作成",
       "C表の記載事項"
@@ -12437,6 +13135,7 @@ window.VOCAB_DATA = [
   {
     "word": "literacy",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "読み書きする能力",
       "読み書きする能力（文脈依存）"
@@ -12454,6 +13153,7 @@ window.VOCAB_DATA = [
   {
     "word": "liver",
     "part": "noun",
+    "rank": "C1",
     "meanings": [
       "C肝臓",
       "U動物の肝臓",
@@ -12472,6 +13172,7 @@ window.VOCAB_DATA = [
   {
     "word": "absent",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "欠席した",
       "るすの",
@@ -12490,6 +13191,7 @@ window.VOCAB_DATA = [
   {
     "word": "absurd",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "道理に合わない",
       "ばかばかしい"
@@ -12507,6 +13209,7 @@ window.VOCAB_DATA = [
   {
     "word": "accessible",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "近づきやすい",
       "入りやすい",
@@ -12525,6 +13228,7 @@ window.VOCAB_DATA = [
   {
     "word": "accordingly",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "従って",
       "それだから",
@@ -12543,6 +13247,7 @@ window.VOCAB_DATA = [
   {
     "word": "accountable",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "説明のつく",
       "《補語にのみ用いて》説明できる",
@@ -12561,6 +13266,7 @@ window.VOCAB_DATA = [
   {
     "word": "acid",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "酸性の",
       "酸味のある",
@@ -12579,6 +13285,7 @@ window.VOCAB_DATA = [
   {
     "word": "acute",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "鋭い",
       "とがった",
@@ -12597,6 +13304,7 @@ window.VOCAB_DATA = [
   {
     "word": "adjacent",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "《文》近接の",
       "隣接している",
@@ -12615,6 +13323,7 @@ window.VOCAB_DATA = [
   {
     "word": "administrative",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "行政上の",
       "管理の",
@@ -12633,6 +13342,7 @@ window.VOCAB_DATA = [
   {
     "word": "adverse",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "反対の",
       "逆の",
@@ -12651,6 +13361,7 @@ window.VOCAB_DATA = [
   {
     "word": "aesthetic",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "美学の",
       "審美的な"
@@ -12668,6 +13379,7 @@ window.VOCAB_DATA = [
   {
     "word": "agricultural",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "農業の",
       "農耕の",
@@ -12686,6 +13398,7 @@ window.VOCAB_DATA = [
   {
     "word": "alert",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "油断のない",
       "用心深い",
@@ -12704,6 +13417,7 @@ window.VOCAB_DATA = [
   {
     "word": "alien",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "外国の",
       "異国の",
@@ -12722,6 +13436,7 @@ window.VOCAB_DATA = [
   {
     "word": "alike",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "同じように",
       "等しく",
@@ -12740,6 +13455,7 @@ window.VOCAB_DATA = [
   {
     "word": "allegedly",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "申し立てによれば",
       "伝えられるところでは"
@@ -12757,6 +13473,7 @@ window.VOCAB_DATA = [
   {
     "word": "amateur",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "アマチュア",
       "しろうと",
@@ -12775,6 +13492,7 @@ window.VOCAB_DATA = [
   {
     "word": "anonymous",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "作者不明の",
       "名を伏せた",
@@ -12793,6 +13511,7 @@ window.VOCAB_DATA = [
   {
     "word": "appealing",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "心を動かす",
       "魅力的な"
@@ -12810,6 +13529,7 @@ window.VOCAB_DATA = [
   {
     "word": "applicable",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "適用できる",
       "適用できる《+to+名》"
@@ -12827,6 +13547,7 @@ window.VOCAB_DATA = [
   {
     "word": "arbitrary",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "随意の",
       "任意の",
@@ -12845,6 +13566,7 @@ window.VOCAB_DATA = [
   {
     "word": "architectural",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "建築術の",
       "建築の"
@@ -12862,6 +13584,7 @@ window.VOCAB_DATA = [
   {
     "word": "authentic",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "信頼できる",
       "確かな",
@@ -12880,6 +13603,7 @@ window.VOCAB_DATA = [
   {
     "word": "bare",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "裸の",
       "おおいのない",
@@ -12898,6 +13622,7 @@ window.VOCAB_DATA = [
   {
     "word": "beloved",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "最愛の",
       "非常に愛されている",
@@ -12916,6 +13641,7 @@ window.VOCAB_DATA = [
   {
     "word": "bizarre",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "一風変わった",
       "変な",
@@ -12934,6 +13660,7 @@ window.VOCAB_DATA = [
   {
     "word": "brutal",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "けものの",
       "けもののような",
@@ -12952,6 +13679,7 @@ window.VOCAB_DATA = [
   {
     "word": "capitalist",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "資本家",
       "《まれ》資本主義者"
@@ -12969,6 +13697,7 @@ window.VOCAB_DATA = [
   {
     "word": "cautious",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "用心深い",
       "慎重な"
@@ -12986,6 +13715,7 @@ window.VOCAB_DATA = [
   {
     "word": "chronic",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "長期にわたる",
       "慢性の",
@@ -13004,6 +13734,7 @@ window.VOCAB_DATA = [
   {
     "word": "civic",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "市民の",
       "市民としての",
@@ -13022,6 +13753,7 @@ window.VOCAB_DATA = [
   {
     "word": "civilian",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "一般市民",
       "民間人",
@@ -13040,6 +13772,7 @@ window.VOCAB_DATA = [
   {
     "word": "clinical",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "臨床の",
       "臨床講義の",
@@ -13058,6 +13791,7 @@ window.VOCAB_DATA = [
   {
     "word": "coastal",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "海岸の",
       "沿岸の"
@@ -13075,6 +13809,7 @@ window.VOCAB_DATA = [
   {
     "word": "cognitive",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "認識の",
       "認識の（文脈依存）"
@@ -13092,6 +13827,7 @@ window.VOCAB_DATA = [
   {
     "word": "collective",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "集めた",
       "収集された",
@@ -13110,6 +13846,7 @@ window.VOCAB_DATA = [
   {
     "word": "colonial",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "植民地の",
       "植民の",
@@ -13128,6 +13865,7 @@ window.VOCAB_DATA = [
   {
     "word": "communist",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "共産主義者",
       "《しばしばC-》共産党員",
@@ -13146,6 +13884,7 @@ window.VOCAB_DATA = [
   {
     "word": "comparable",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "比較できる",
       "類以点がある",
@@ -13164,6 +13903,7 @@ window.VOCAB_DATA = [
   {
     "word": "compelling",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "《compel+名+to do》人‘に'しいる",
       "…強要する《+名+from+名人》"
@@ -13181,6 +13921,7 @@ window.VOCAB_DATA = [
   {
     "word": "competent",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "有能な",
       "能力ある",
@@ -13199,6 +13940,7 @@ window.VOCAB_DATA = [
   {
     "word": "congressional",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "会議の",
       "《米》国会の"
@@ -13216,6 +13958,7 @@ window.VOCAB_DATA = [
   {
     "word": "consecutive",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "連続した",
       "引き続く",
@@ -13234,6 +13977,7 @@ window.VOCAB_DATA = [
   {
     "word": "constitutional",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "体質の",
       "生まれつきの",
@@ -13252,6 +13996,7 @@ window.VOCAB_DATA = [
   {
     "word": "content",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "満足して",
       "甘んじて",
@@ -13270,6 +14015,7 @@ window.VOCAB_DATA = [
   {
     "word": "continually",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "ひんぱんに",
       "たびたび",
@@ -13288,6 +14034,7 @@ window.VOCAB_DATA = [
   {
     "word": "contrary",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "板抵の",
       "相いれない",
@@ -13306,6 +14053,7 @@ window.VOCAB_DATA = [
   {
     "word": "cooperative",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "協力的な",
       "助けになる",
@@ -13324,6 +14072,7 @@ window.VOCAB_DATA = [
   {
     "word": "corresponding",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "一致する",
       "対応する",
@@ -13342,6 +14091,7 @@ window.VOCAB_DATA = [
   {
     "word": "corrupt",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "わいろの利く",
       "不正行為をする",
@@ -13360,6 +14110,7 @@ window.VOCAB_DATA = [
   {
     "word": "costly",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "高価な",
       "費用のかかる",
@@ -13378,6 +14129,7 @@ window.VOCAB_DATA = [
   {
     "word": "countless",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "数えきれないほどの無数の",
       "数えきれないほどの無数の（文脈依存）"
@@ -13395,6 +14147,7 @@ window.VOCAB_DATA = [
   {
     "word": "credible",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "信用できる",
       "確実な"
@@ -13412,6 +14165,7 @@ window.VOCAB_DATA = [
   {
     "word": "crude",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "天然のままの",
       "未加工の",
@@ -13430,6 +14184,7 @@ window.VOCAB_DATA = [
   {
     "word": "cult",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "儀式",
       "信仰",
@@ -13448,6 +14203,7 @@ window.VOCAB_DATA = [
   {
     "word": "cynical",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "皮肉な",
       "冷笑的な",
@@ -13466,6 +14222,7 @@ window.VOCAB_DATA = [
   {
     "word": "damaging",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "U損害",
       "損傷",
@@ -13484,6 +14241,7 @@ window.VOCAB_DATA = [
   {
     "word": "decisive",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "決定的な",
       "決め手となる",
@@ -13502,6 +14260,7 @@ window.VOCAB_DATA = [
   {
     "word": "dedicated",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "打ち込んでいる",
       "ひたむきな"
@@ -13519,6 +14278,7 @@ window.VOCAB_DATA = [
   {
     "word": "defensive",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "防御の",
       "守備の",
@@ -13537,6 +14297,7 @@ window.VOCAB_DATA = [
   {
     "word": "delicate",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "繊細な",
       "精巧な",
@@ -13555,6 +14316,7 @@ window.VOCAB_DATA = [
   {
     "word": "dense",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "密度が濃い",
       "密集した",
@@ -13573,6 +14335,7 @@ window.VOCAB_DATA = [
   {
     "word": "desirable",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "望ましい",
       "好ましい",
@@ -13591,6 +14354,7 @@ window.VOCAB_DATA = [
   {
     "word": "destructive",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "破壊的な",
       "破滅的な",
@@ -13609,6 +14373,7 @@ window.VOCAB_DATA = [
   {
     "word": "diplomatic",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "《名詞の前にのみ用いて》外交の",
       "外交上の",
@@ -13627,6 +14392,7 @@ window.VOCAB_DATA = [
   {
     "word": "disastrous",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "災害の",
       "災害によって引き起こされた",
@@ -13645,6 +14411,7 @@ window.VOCAB_DATA = [
   {
     "word": "distinctive",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "はっきりした差異のある",
       "特有の",
@@ -13663,6 +14430,7 @@ window.VOCAB_DATA = [
   {
     "word": "disturbing",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "…‘を'かき乱す",
       "騒がしくする",
@@ -13681,6 +14449,7 @@ window.VOCAB_DATA = [
   {
     "word": "divine",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "神の",
       "神のような",
@@ -13699,6 +14468,7 @@ window.VOCAB_DATA = [
   {
     "word": "driving",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "推進する",
       "伝動の",
@@ -13717,6 +14487,7 @@ window.VOCAB_DATA = [
   {
     "word": "dual",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "二つの部分から成る",
       "二重の性質がある"
@@ -13734,6 +14505,7 @@ window.VOCAB_DATA = [
   {
     "word": "dumb",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "物の言えない",
       "口をきくことができない",
@@ -13752,6 +14524,7 @@ window.VOCAB_DATA = [
   {
     "word": "eager",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "《補語にのみ用いて》熱望している",
       "強く望んで",
@@ -13770,6 +14543,7 @@ window.VOCAB_DATA = [
   {
     "word": "ecological",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "生態学の",
       "生態学の（文脈依存）"
@@ -13787,6 +14561,7 @@ window.VOCAB_DATA = [
   {
     "word": "elaborate",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "入念な",
       "手の込んだ",
@@ -13805,6 +14580,7 @@ window.VOCAB_DATA = [
   {
     "word": "electoral",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "選挙の",
       "選挙人から成る"
@@ -13822,6 +14598,7 @@ window.VOCAB_DATA = [
   {
     "word": "eligible",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "適格な",
       "適任の",
@@ -13840,6 +14617,7 @@ window.VOCAB_DATA = [
   {
     "word": "empirical",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "経験を基礎とする",
       "実験に基づいた"
@@ -13857,6 +14635,7 @@ window.VOCAB_DATA = [
   {
     "word": "encouraging",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "元気付ける",
       "励ましとなる",
@@ -13875,6 +14654,7 @@ window.VOCAB_DATA = [
   {
     "word": "endless",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "無限の",
       "果てしのない",
@@ -13893,6 +14673,7 @@ window.VOCAB_DATA = [
   {
     "word": "engaging",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "人を引き付ける",
       "魅力のある"
@@ -13910,6 +14691,7 @@ window.VOCAB_DATA = [
   {
     "word": "eternal",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "永遠の",
       "永久不変の",
@@ -13928,6 +14710,7 @@ window.VOCAB_DATA = [
   {
     "word": "evolutionary",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "発展の",
       "進化の",
@@ -13946,6 +14729,7 @@ window.VOCAB_DATA = [
   {
     "word": "exceptional",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "例外の",
       "まれな",
@@ -13964,6 +14748,7 @@ window.VOCAB_DATA = [
   {
     "word": "excess",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "U《時にan~》超過《+of+名+over+名》",
       "U不節制《+at+名",
@@ -13982,6 +14767,7 @@ window.VOCAB_DATA = [
   {
     "word": "exclusive",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "除外する",
       "排他的な",
@@ -14000,6 +14786,7 @@ window.VOCAB_DATA = [
   {
     "word": "exclusively",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "排他的に",
       "独占的に",
@@ -14018,6 +14805,7 @@ window.VOCAB_DATA = [
   {
     "word": "experimental",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "実験の",
       "実験に基づく:",
@@ -14036,6 +14824,7 @@ window.VOCAB_DATA = [
   {
     "word": "explicit",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "明白に述べた",
       "明白に述べた（文脈依存）"
@@ -14053,6 +14842,7 @@ window.VOCAB_DATA = [
   {
     "word": "explosive",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "爆発の",
       "爆発的な",
@@ -14071,6 +14861,7 @@ window.VOCAB_DATA = [
   {
     "word": "fatal",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "運命の",
       "宿命的な",
@@ -14089,6 +14880,7 @@ window.VOCAB_DATA = [
   {
     "word": "feminist",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "博女同権主義者",
       "女性解放論者"
@@ -14106,6 +14898,7 @@ window.VOCAB_DATA = [
   {
     "word": "fierce",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "凶暴な",
       "どう猛な",
@@ -14124,6 +14917,7 @@ window.VOCAB_DATA = [
   {
     "word": "flawed",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "割れ目",
       "ひび",
@@ -14142,6 +14936,7 @@ window.VOCAB_DATA = [
   {
     "word": "forth",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "前へ",
       "先へ",
@@ -14160,6 +14955,7 @@ window.VOCAB_DATA = [
   {
     "word": "forthcoming",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "まさに来ようとしている",
       "来たるべき",
@@ -14178,6 +14974,7 @@ window.VOCAB_DATA = [
   {
     "word": "fragile",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "壊れやすい",
       "もろい",
@@ -14196,6 +14993,7 @@ window.VOCAB_DATA = [
   {
     "word": "frankly",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "率直に",
       "あからさまに",
@@ -14214,6 +15012,7 @@ window.VOCAB_DATA = [
   {
     "word": "frustrated",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "計画・努力など‘を'ざ折させる",
       "失敗させる",
@@ -14232,6 +15031,7 @@ window.VOCAB_DATA = [
   {
     "word": "frustrating",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "計画・努力など‘を'ざ折させる",
       "失敗させる",
@@ -14250,6 +15050,7 @@ window.VOCAB_DATA = [
   {
     "word": "functional",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "機能上の",
       "機能的な",
@@ -14268,6 +15069,7 @@ window.VOCAB_DATA = [
   {
     "word": "generic",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "属の",
       "ある種類全体にあてはまる",
@@ -14286,6 +15088,7 @@ window.VOCAB_DATA = [
   {
     "word": "glorious",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "光栄ある",
       "名誉ある",
@@ -14304,6 +15107,7 @@ window.VOCAB_DATA = [
   {
     "word": "grave",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "…‘を'刻みつける",
       "銘記する《+名+on+名》"
@@ -14321,6 +15125,7 @@ window.VOCAB_DATA = [
   {
     "word": "gross",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "全体の",
       "総計の",
@@ -14339,6 +15144,7 @@ window.VOCAB_DATA = [
   {
     "word": "halfway",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "中間の",
       "中途はんぱの",
@@ -14357,6 +15163,7 @@ window.VOCAB_DATA = [
   {
     "word": "handy",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "取り扱いに便利な",
       "手ごろな",
@@ -14375,6 +15182,7 @@ window.VOCAB_DATA = [
   {
     "word": "harsh",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "不快な",
       "いやな",
@@ -14393,6 +15201,7 @@ window.VOCAB_DATA = [
   {
     "word": "hopeful",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "希望に満ちた",
       "有望な",
@@ -14411,6 +15220,7 @@ window.VOCAB_DATA = [
   {
     "word": "hostile",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "敵の",
       "敵国の",
@@ -14429,6 +15239,7 @@ window.VOCAB_DATA = [
   {
     "word": "humanitarian",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "人道主義的な",
       "人道主義者",
@@ -14447,6 +15258,7 @@ window.VOCAB_DATA = [
   {
     "word": "humble",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "低い",
       "卑しい",
@@ -14465,6 +15277,7 @@ window.VOCAB_DATA = [
   {
     "word": "ideological",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "イデオロギーの",
       "観念的な",
@@ -14483,6 +15296,7 @@ window.VOCAB_DATA = [
   {
     "word": "immense",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "巨大な",
       "多大な",
@@ -14501,6 +15315,7 @@ window.VOCAB_DATA = [
   {
     "word": "imminent",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "差し迫った",
       "差し迫った（文脈依存）"
@@ -14518,6 +15333,7 @@ window.VOCAB_DATA = [
   {
     "word": "inadequate",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "不十分な",
       "不適当な",
@@ -14536,6 +15352,7 @@ window.VOCAB_DATA = [
   {
     "word": "inappropriate",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "不適当な",
       "ふさわしくない"
@@ -14553,6 +15370,7 @@ window.VOCAB_DATA = [
   {
     "word": "inclined",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "《補語にのみ用いて》傾向がある",
       "心が向く",
@@ -14571,6 +15389,7 @@ window.VOCAB_DATA = [
   {
     "word": "indigenous",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "固有の",
       "土着の",
@@ -14589,6 +15408,7 @@ window.VOCAB_DATA = [
   {
     "word": "infamous",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "不名誉な",
       "恥ずべき",
@@ -14607,6 +15427,7 @@ window.VOCAB_DATA = [
   {
     "word": "influential",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "有力な",
       "影響を及ばす",
@@ -14625,6 +15446,7 @@ window.VOCAB_DATA = [
   {
     "word": "inherent",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "本来の",
       "生まれつきの"
@@ -14642,6 +15464,7 @@ window.VOCAB_DATA = [
   {
     "word": "institutional",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "制度の",
       "制度上の",
@@ -14660,6 +15483,7 @@ window.VOCAB_DATA = [
   {
     "word": "instrumental",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "役立つ",
       "役立つ《+in doing》",
@@ -14678,6 +15502,7 @@ window.VOCAB_DATA = [
   {
     "word": "insufficient",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "不十分な",
       "不適当な"
@@ -14695,6 +15520,7 @@ window.VOCAB_DATA = [
   {
     "word": "intact",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "手をつけない",
       "損なわれない"
@@ -14712,6 +15538,7 @@ window.VOCAB_DATA = [
   {
     "word": "integral",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "全体の一部分として欠くことのできない",
       "完全なものになるに必要な",
@@ -14730,6 +15557,7 @@ window.VOCAB_DATA = [
   {
     "word": "integrated",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "統合された",
       "人種差別しない"
@@ -14747,6 +15575,7 @@ window.VOCAB_DATA = [
   {
     "word": "intensive",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "集中的な",
       "徹底的な",
@@ -14765,6 +15594,7 @@ window.VOCAB_DATA = [
   {
     "word": "interim",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "中間",
       "合い間",
@@ -14783,6 +15613,7 @@ window.VOCAB_DATA = [
   {
     "word": "interior",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "U内部",
       "内側",
@@ -14801,6 +15632,7 @@ window.VOCAB_DATA = [
   {
     "word": "intermediate",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "中間の",
       "中間にある"
@@ -14818,6 +15650,7 @@ window.VOCAB_DATA = [
   {
     "word": "intimate",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "…‘を'ほのめかす",
       "それとなく知らせる"
@@ -14835,6 +15668,7 @@ window.VOCAB_DATA = [
   {
     "word": "intriguing",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "U陰謀を企てること",
       "C陰謀",
@@ -14853,6 +15687,7 @@ window.VOCAB_DATA = [
   {
     "word": "invisible",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "目に見えない",
       "見えない《+to+名》"
@@ -14870,6 +15705,7 @@ window.VOCAB_DATA = [
   {
     "word": "ironic",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "皮肉な",
       "反語の"
@@ -14887,6 +15723,7 @@ window.VOCAB_DATA = [
   {
     "word": "ironically",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "皮肉に",
       "反語的に"
@@ -14904,6 +15741,7 @@ window.VOCAB_DATA = [
   {
     "word": "irrelevant",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "見当違いの",
       "取るに足りない"
@@ -14921,6 +15759,7 @@ window.VOCAB_DATA = [
   {
     "word": "judicial",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "裁判の",
       "司法の",
@@ -14939,6 +15778,7 @@ window.VOCAB_DATA = [
   {
     "word": "just",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "正しい",
       "公正な",
@@ -14957,6 +15797,7 @@ window.VOCAB_DATA = [
   {
     "word": "latter",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "《the",
       "thisまたはtheseと共に名詞の前にのみ用いて》後半の",
@@ -14975,6 +15816,7 @@ window.VOCAB_DATA = [
   {
     "word": "legendary",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "伝説の",
       "伝説的な",
@@ -14993,6 +15835,7 @@ window.VOCAB_DATA = [
   {
     "word": "legislative",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "立法の",
       "立法権のある"
@@ -15010,6 +15853,7 @@ window.VOCAB_DATA = [
   {
     "word": "legitimate",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "合法的な",
       "法律の認める",
@@ -15028,6 +15872,7 @@ window.VOCAB_DATA = [
   {
     "word": "lengthy",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "非常に長い",
       "長すぎる",
@@ -15046,6 +15891,7 @@ window.VOCAB_DATA = [
   {
     "word": "lesbian",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "同性愛の",
       "レズビアン",
@@ -15064,6 +15910,7 @@ window.VOCAB_DATA = [
   {
     "word": "lesser",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "いっそう小さい",
       "より劣った"
@@ -15081,6 +15928,7 @@ window.VOCAB_DATA = [
   {
     "word": "lethal",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "死をもたらす",
       "致死の",
@@ -15099,6 +15947,7 @@ window.VOCAB_DATA = [
   {
     "word": "liable",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "責任のある",
       "《be liable to+名》かかりやすい",
@@ -15117,6 +15966,7 @@ window.VOCAB_DATA = [
   {
     "word": "liberal",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "自由主義の",
       "寛大な",
@@ -15135,6 +15985,7 @@ window.VOCAB_DATA = [
   {
     "word": "lifelong",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "終生の",
       "生涯の"
@@ -15152,6 +16003,7 @@ window.VOCAB_DATA = [
   {
     "word": "linear",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "線の",
       "直線の",
@@ -15170,6 +16022,7 @@ window.VOCAB_DATA = [
   {
     "word": "magical",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "魔法の",
       "魔法による",
@@ -15188,6 +16041,7 @@ window.VOCAB_DATA = [
   {
     "word": "magnetic",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "磁石の",
       "磁気の",
@@ -15206,6 +16060,7 @@ window.VOCAB_DATA = [
   {
     "word": "mainstream",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "《the ~》主流",
       "本流"
@@ -15223,6 +16078,7 @@ window.VOCAB_DATA = [
   {
     "word": "mandatory",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "強制的な",
       "委任の",
@@ -15241,6 +16097,7 @@ window.VOCAB_DATA = [
   {
     "word": "marginal",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "縁の",
       "へりの",
@@ -15259,6 +16116,7 @@ window.VOCAB_DATA = [
   {
     "word": "marine",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "海の",
       "海洋の",
@@ -15277,6 +16135,7 @@ window.VOCAB_DATA = [
   {
     "word": "mathematical",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "数学の",
       "数学的",
@@ -15295,6 +16154,7 @@ window.VOCAB_DATA = [
   {
     "word": "mature",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "成熟した",
       "十分に成長した",
@@ -15313,6 +16173,7 @@ window.VOCAB_DATA = [
   {
     "word": "meaningful",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "有意義な",
       "意義のある"
@@ -15330,6 +16191,7 @@ window.VOCAB_DATA = [
   {
     "word": "medieval",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "中世の",
       "中世に属する",
@@ -15348,6 +16210,7 @@ window.VOCAB_DATA = [
   {
     "word": "merely",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "単に",
       "ただ"
@@ -15365,6 +16228,7 @@ window.VOCAB_DATA = [
   {
     "word": "militant",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "攻撃的な",
       "好戦的な",
@@ -15383,6 +16247,7 @@ window.VOCAB_DATA = [
   {
     "word": "minimal",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "最小の",
       "極小の",
@@ -15401,6 +16266,7 @@ window.VOCAB_DATA = [
   {
     "word": "minute",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "ごく小さい",
       "微細な",
@@ -15419,6 +16285,7 @@ window.VOCAB_DATA = [
   {
     "word": "misleading",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "人を誤らせる",
       "誤解を招きやすい",
@@ -15437,6 +16304,7 @@ window.VOCAB_DATA = [
   {
     "word": "moderate",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "適度の",
       "度を越さない",
@@ -15455,6 +16323,7 @@ window.VOCAB_DATA = [
   {
     "word": "municipal",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "市の",
       "町の",
@@ -15473,6 +16342,7 @@ window.VOCAB_DATA = [
   {
     "word": "mutual",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "相互の お互いに対する",
       "共通の",
@@ -15491,6 +16361,7 @@ window.VOCAB_DATA = [
   {
     "word": "namely",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "すなわち",
       "つまり"
@@ -15508,6 +16379,7 @@ window.VOCAB_DATA = [
   {
     "word": "nationwide",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "全国的な",
       "全国的な（文脈依存）"
@@ -15525,6 +16397,7 @@ window.VOCAB_DATA = [
   {
     "word": "naval",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "海軍の",
       "軍艦の"
@@ -15542,6 +16415,7 @@ window.VOCAB_DATA = [
   {
     "word": "neighbouring",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "《名詞の前にのみ用いて》近くの",
       "隣の"
@@ -15559,6 +16433,7 @@ window.VOCAB_DATA = [
   {
     "word": "net",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "《名詞の前にのみ用いて》正味の",
       "正味",
@@ -15577,6 +16452,7 @@ window.VOCAB_DATA = [
   {
     "word": "noble",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "高貴の",
       "貴族の",
@@ -15595,6 +16471,7 @@ window.VOCAB_DATA = [
   {
     "word": "nonetheless",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "それでもなお",
       "それでもなお（文脈依存）"
@@ -15612,6 +16489,7 @@ window.VOCAB_DATA = [
   {
     "word": "notable",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "注目に値する",
       "目立った",
@@ -15630,6 +16508,7 @@ window.VOCAB_DATA = [
   {
     "word": "notably",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "著しく",
       "際立って",
@@ -15648,6 +16527,7 @@ window.VOCAB_DATA = [
   {
     "word": "notorious",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "名高い",
       "悪名高い",
@@ -15666,6 +16546,7 @@ window.VOCAB_DATA = [
   {
     "word": "novel",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "小説",
       "小説（文脈依存）"
@@ -15683,6 +16564,7 @@ window.VOCAB_DATA = [
   {
     "word": "occasional",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "時たまの",
       "時おりの",
@@ -15701,6 +16583,7 @@ window.VOCAB_DATA = [
   {
     "word": "operational",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "操作上の",
       "作戦上の",
@@ -15719,6 +16602,7 @@ window.VOCAB_DATA = [
   {
     "word": "optical",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "視覚の",
       "視力の",
@@ -15737,6 +16621,7 @@ window.VOCAB_DATA = [
   {
     "word": "oral",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "口頭の",
       "口述の",
@@ -15755,6 +16640,7 @@ window.VOCAB_DATA = [
   {
     "word": "organizational",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "組織上の",
       "構成上の"
@@ -15772,6 +16658,7 @@ window.VOCAB_DATA = [
   {
     "word": "overly",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "過度に",
       "あまりに"
@@ -15789,6 +16676,7 @@ window.VOCAB_DATA = [
   {
     "word": "overwhelming",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "圧倒的な",
       "抗しきれない"
@@ -15806,6 +16694,7 @@ window.VOCAB_DATA = [
   {
     "word": "parental",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "親の",
       "親としての",
@@ -15824,6 +16713,7 @@ window.VOCAB_DATA = [
   {
     "word": "parliamentary",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "議会の",
       "議会に関する",
@@ -15842,6 +16732,7 @@ window.VOCAB_DATA = [
   {
     "word": "partial",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "一部分の",
       "部分的な",
@@ -15860,6 +16751,7 @@ window.VOCAB_DATA = [
   {
     "word": "partially",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "部分的に",
       "一部分",
@@ -15878,6 +16770,7 @@ window.VOCAB_DATA = [
   {
     "word": "passive",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "受動的な",
       "消極的な",
@@ -15896,6 +16789,7 @@ window.VOCAB_DATA = [
   {
     "word": "peculiar",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "変な",
       "奇妙な",
@@ -15914,6 +16808,7 @@ window.VOCAB_DATA = [
   {
     "word": "persistent",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "あくまでもやり抜く",
       "ねばり強い",
@@ -15932,6 +16827,7 @@ window.VOCAB_DATA = [
   {
     "word": "predominantly",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "たいていは",
       "主として"
@@ -15949,6 +16845,7 @@ window.VOCAB_DATA = [
   {
     "word": "preliminary",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "準備する",
       "予備の",
@@ -15967,6 +16864,7 @@ window.VOCAB_DATA = [
   {
     "word": "premier",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "第1位の",
       "首席の",
@@ -15985,6 +16883,7 @@ window.VOCAB_DATA = [
   {
     "word": "presently",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "やがて",
       "まもなく",
@@ -16003,6 +16902,7 @@ window.VOCAB_DATA = [
   {
     "word": "presidential",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "大統領の",
       "会長の",
@@ -16021,6 +16921,7 @@ window.VOCAB_DATA = [
   {
     "word": "prestigious",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "誉れの高い",
       "高名な",
@@ -16039,6 +16940,7 @@ window.VOCAB_DATA = [
   {
     "word": "presumably",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "たぶん",
       "おそらく"
@@ -16056,6 +16958,7 @@ window.VOCAB_DATA = [
   {
     "word": "problematic",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "疑問のある",
       "あやふやな",
@@ -16074,6 +16977,7 @@ window.VOCAB_DATA = [
   {
     "word": "productive",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "生産的な",
       "好ましい結果を生み出す",
@@ -16092,6 +16996,7 @@ window.VOCAB_DATA = [
   {
     "word": "profitable",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "利益の上がる",
       "有益な"
@@ -16109,6 +17014,7 @@ window.VOCAB_DATA = [
   {
     "word": "profound",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "深遠な",
       "深い洞察力をもった",
@@ -16127,6 +17033,7 @@ window.VOCAB_DATA = [
   {
     "word": "prominent",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "突き出た",
       "隆起した",
@@ -16145,6 +17052,7 @@ window.VOCAB_DATA = [
   {
     "word": "pronounced",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "はっきりした",
       "明白な",
@@ -16163,6 +17071,7 @@ window.VOCAB_DATA = [
   {
     "word": "prospective",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "未来の",
       "将来の",
@@ -16181,6 +17090,7 @@ window.VOCAB_DATA = [
   {
     "word": "protective",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "保護の",
       "保護する",
@@ -16199,6 +17109,7 @@ window.VOCAB_DATA = [
   {
     "word": "provincial",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "《名詞の前にのみ用いて》地方の",
       "いなかの",
@@ -16217,6 +17128,7 @@ window.VOCAB_DATA = [
   {
     "word": "psychiatric",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "精神医学の",
       "精神医学の（文脈依存）"
@@ -16234,6 +17146,7 @@ window.VOCAB_DATA = [
   {
     "word": "radical",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "根本的な",
       "基本的な",
@@ -16252,6 +17165,7 @@ window.VOCAB_DATA = [
   {
     "word": "rational",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "道理にかなった",
       "合理的な",
@@ -16270,6 +17184,7 @@ window.VOCAB_DATA = [
   {
     "word": "readily",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "快く",
       "進んで",
@@ -16288,6 +17203,7 @@ window.VOCAB_DATA = [
   {
     "word": "rear",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "子供‘を'養育する",
       "動植物‘を'育てる",
@@ -16306,6 +17222,7 @@ window.VOCAB_DATA = [
   {
     "word": "regardless",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "むとんじゃくな",
       "不注意な",
@@ -16324,6 +17241,7 @@ window.VOCAB_DATA = [
   {
     "word": "reluctant",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "気が進まない",
       "いやいやながらの"
@@ -16341,6 +17259,7 @@ window.VOCAB_DATA = [
   {
     "word": "renowned",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "有名な",
       "名声のある",
@@ -16359,6 +17278,7 @@ window.VOCAB_DATA = [
   {
     "word": "reportedly",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "伝えられるところによれば…とのこと",
       "伝えられるところによれば…とのこと（文脈依存）"
@@ -16376,6 +17296,7 @@ window.VOCAB_DATA = [
   {
     "word": "residential",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "住居の",
       "居住の",
@@ -16394,6 +17315,7 @@ window.VOCAB_DATA = [
   {
     "word": "respective",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "それぞれの",
       "各自の"
@@ -16411,6 +17333,7 @@ window.VOCAB_DATA = [
   {
     "word": "respectively",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "それぞれに",
       "めいめいに",
@@ -16429,6 +17352,7 @@ window.VOCAB_DATA = [
   {
     "word": "reverse",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "逆の",
       "裏側の",
@@ -16447,6 +17371,7 @@ window.VOCAB_DATA = [
   {
     "word": "revolutionary",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "《名詞の前にのみ用いて》革命の",
       "革命的な",
@@ -16465,6 +17390,7 @@ window.VOCAB_DATA = [
   {
     "word": "robust",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "たくましい",
       "強壮な",
@@ -16483,6 +17409,7 @@ window.VOCAB_DATA = [
   {
     "word": "sacred",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "神聖な",
       "神の",
@@ -16501,6 +17428,7 @@ window.VOCAB_DATA = [
   {
     "word": "scattered",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "散在する",
       "ばらばらの"
@@ -16518,6 +17446,7 @@ window.VOCAB_DATA = [
   {
     "word": "secular",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "宗教に関係のない",
       "世俗的な",
@@ -16536,6 +17465,7 @@ window.VOCAB_DATA = [
   {
     "word": "seemingly",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "うわべは",
       "表面は",
@@ -16554,6 +17484,7 @@ window.VOCAB_DATA = [
   {
     "word": "seldom",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "めったに…ない",
       "まれに"
@@ -16571,6 +17502,7 @@ window.VOCAB_DATA = [
   {
     "word": "selective",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "選択の",
       "染択する",
@@ -16589,6 +17521,7 @@ window.VOCAB_DATA = [
   {
     "word": "serial",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "連載物",
       "定期刊行物",
@@ -16607,6 +17540,7 @@ window.VOCAB_DATA = [
   {
     "word": "sheer",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "特に船が針路からそれる",
       "向きを変える《+away》",
@@ -16625,6 +17559,7 @@ window.VOCAB_DATA = [
   {
     "word": "simultaneously",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "同時に",
       "同時に（文脈依存）"
@@ -16642,6 +17577,7 @@ window.VOCAB_DATA = [
   {
     "word": "situated",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "位置している",
       "《副詞を伴って》状態に置かれた"
@@ -16659,6 +17595,7 @@ window.VOCAB_DATA = [
   {
     "word": "socialist",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "社会主義者",
       "《通例S-》社会党員",
@@ -16677,6 +17614,7 @@ window.VOCAB_DATA = [
   {
     "word": "sole",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "ウシノシタ",
       "シタビラメ"
@@ -16694,6 +17632,7 @@ window.VOCAB_DATA = [
   {
     "word": "solely",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "一人で",
       "単独で",
@@ -16712,6 +17651,7 @@ window.VOCAB_DATA = [
   {
     "word": "solo",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "ソロ",
       "ソロ（文脈依存）"
@@ -16729,6 +17669,7 @@ window.VOCAB_DATA = [
   {
     "word": "sound",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "海峡",
       "瀬戸",
@@ -16747,6 +17688,7 @@ window.VOCAB_DATA = [
   {
     "word": "specialized",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "専門化した",
       "特製の"
@@ -16764,6 +17706,7 @@ window.VOCAB_DATA = [
   {
     "word": "standing",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "UC身分",
       "地位",
@@ -16782,6 +17725,7 @@ window.VOCAB_DATA = [
   {
     "word": "stark",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "《名詞の前にのみ用いて》全くの",
       "正真正銘の",
@@ -16800,6 +17744,7 @@ window.VOCAB_DATA = [
   {
     "word": "statistical",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "統計の",
       "統計学上の"
@@ -16817,6 +17762,7 @@ window.VOCAB_DATA = [
   {
     "word": "straightforward",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "正直な",
       "率直な",
@@ -16835,6 +17781,7 @@ window.VOCAB_DATA = [
   {
     "word": "strategic",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "戦略の",
       "計略の",
@@ -16853,6 +17800,7 @@ window.VOCAB_DATA = [
   {
     "word": "striking",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "人目につく",
       "目立つ",
@@ -16871,6 +17819,7 @@ window.VOCAB_DATA = [
   {
     "word": "structural",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "構造の",
       "構成の",
@@ -16889,6 +17838,7 @@ window.VOCAB_DATA = [
   {
     "word": "substantial",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "かなりの",
       "相当の",
@@ -16907,6 +17857,7 @@ window.VOCAB_DATA = [
   {
     "word": "substantially",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "概して",
       "本質的に",
@@ -16925,6 +17876,7 @@ window.VOCAB_DATA = [
   {
     "word": "subtle",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "かすかな",
       "ほのかな",
@@ -16943,6 +17895,7 @@ window.VOCAB_DATA = [
   {
     "word": "suburban",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "郊外の",
       "郊外じみた",
@@ -16961,6 +17914,7 @@ window.VOCAB_DATA = [
   {
     "word": "successive",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "連続する",
       "連続する（文脈依存）"
@@ -16978,6 +17932,7 @@ window.VOCAB_DATA = [
   {
     "word": "superb",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "りっぱな",
       "一流の",
@@ -16996,6 +17951,7 @@ window.VOCAB_DATA = [
   {
     "word": "superior",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "普通以上に優れた",
       "優秀な",
@@ -17014,6 +17970,7 @@ window.VOCAB_DATA = [
   {
     "word": "supportive",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "支える",
       "維持する",
@@ -17032,6 +17989,7 @@ window.VOCAB_DATA = [
   {
     "word": "supposedly",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "想像上",
       "おそらく"
@@ -17049,6 +18007,7 @@ window.VOCAB_DATA = [
   {
     "word": "supreme",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "最高位の",
       "最高の",
@@ -17067,6 +18026,7 @@ window.VOCAB_DATA = [
   {
     "word": "surgical",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "外科の",
       "手術用の",
@@ -17085,6 +18045,7 @@ window.VOCAB_DATA = [
   {
     "word": "suspicious",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "疑わしい",
       "怪しい",
@@ -17103,6 +18064,7 @@ window.VOCAB_DATA = [
   {
     "word": "symbolic",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "象徴の",
       "象徴によって表された"
@@ -17120,6 +18082,7 @@ window.VOCAB_DATA = [
   {
     "word": "systematic",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "系統だった",
       "組織的な",
@@ -17138,6 +18101,7 @@ window.VOCAB_DATA = [
   {
     "word": "tactical",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "戦術上の",
       "戦術的な",
@@ -17156,6 +18120,7 @@ window.VOCAB_DATA = [
   {
     "word": "tender",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "柔らかい",
       "きゃしゃな",
@@ -17174,6 +18139,7 @@ window.VOCAB_DATA = [
   {
     "word": "terminal",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "終りの",
       "末端の",
@@ -17192,6 +18158,7 @@ window.VOCAB_DATA = [
   {
     "word": "terrific",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "ものすごい",
       "恐ろしい",
@@ -17210,6 +18177,7 @@ window.VOCAB_DATA = [
   {
     "word": "theatrical",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "劇場の",
       "劇の",
@@ -17228,6 +18196,7 @@ window.VOCAB_DATA = [
   {
     "word": "theoretical",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "理論の",
       "理論的な",
@@ -17246,6 +18215,7 @@ window.VOCAB_DATA = [
   {
     "word": "thereafter",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "その後",
       "その後（文脈依存）"
@@ -17263,6 +18233,7 @@ window.VOCAB_DATA = [
   {
     "word": "thereby",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "それによって",
       "それに関連して"
@@ -17280,6 +18251,7 @@ window.VOCAB_DATA = [
   {
     "word": "thoughtful",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "思いやりのある",
       "配慮の行き届いた",
@@ -17298,6 +18270,7 @@ window.VOCAB_DATA = [
   {
     "word": "thrilled",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "ぞくぞくする感じ",
       "ぞっとする感じ",
@@ -17316,6 +18289,7 @@ window.VOCAB_DATA = [
   {
     "word": "timely",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "時宜を得た",
       "時宜を得た（文脈依存）"
@@ -17333,6 +18307,7 @@ window.VOCAB_DATA = [
   {
     "word": "toxic",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "毒性の",
       "有毒な",
@@ -17351,6 +18326,7 @@ window.VOCAB_DATA = [
   {
     "word": "transparent",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "透明な",
       "透き通った",
@@ -17369,6 +18345,7 @@ window.VOCAB_DATA = [
   {
     "word": "tremendous",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "ものすごい",
       "途方もない",
@@ -17387,6 +18364,7 @@ window.VOCAB_DATA = [
   {
     "word": "tribal",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "部族の",
       "部族的な"
@@ -17404,6 +18382,7 @@ window.VOCAB_DATA = [
   {
     "word": "troubled",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "心配そうな",
       "当惑した",
@@ -17422,6 +18401,7 @@ window.VOCAB_DATA = [
   {
     "word": "underlying",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "下にある",
       "下に横たわる",
@@ -17440,6 +18420,7 @@ window.VOCAB_DATA = [
   {
     "word": "undoubtedly",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "疑いなく",
       "確かに"
@@ -17457,6 +18438,7 @@ window.VOCAB_DATA = [
   {
     "word": "unprecedented",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "先例のない",
       "みぞうの"
@@ -17474,6 +18456,7 @@ window.VOCAB_DATA = [
   {
     "word": "upcoming",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "なって来る",
       "やがて起こる",
@@ -17492,6 +18475,7 @@ window.VOCAB_DATA = [
   {
     "word": "utterly",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "全く",
       "すっかり",
@@ -17510,6 +18494,7 @@ window.VOCAB_DATA = [
   {
     "word": "vague",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "はっきりしない",
       "あいまいな",
@@ -17528,6 +18513,7 @@ window.VOCAB_DATA = [
   {
     "word": "variable",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "変わりやすい",
       "一定しない",
@@ -17546,6 +18532,7 @@ window.VOCAB_DATA = [
   {
     "word": "varied",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "さまざまな",
       "いろいろな",
@@ -17564,6 +18551,7 @@ window.VOCAB_DATA = [
   {
     "word": "verbal",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "語の",
       "言葉の",
@@ -17582,6 +18570,7 @@ window.VOCAB_DATA = [
   {
     "word": "viable",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "生存できる",
       "生活できる",
@@ -17600,6 +18589,7 @@ window.VOCAB_DATA = [
   {
     "word": "vibrant",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "《文》振動する",
       "響き渡る",
@@ -17618,6 +18608,7 @@ window.VOCAB_DATA = [
   {
     "word": "vicious",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "悪意のある",
       "意地悪な",
@@ -17636,6 +18627,7 @@ window.VOCAB_DATA = [
   {
     "word": "vocal",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "声の",
       "音声の",
@@ -17654,6 +18646,7 @@ window.VOCAB_DATA = [
   {
     "word": "vulnerable",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "傷つきやすい",
       "攻撃を受けやすい",
@@ -17672,6 +18665,7 @@ window.VOCAB_DATA = [
   {
     "word": "whatever",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "《関係代名詞 what の強調形》…するものは何でも",
       "《譲歩節を導いて》いかに…でも",
@@ -17690,6 +18684,7 @@ window.VOCAB_DATA = [
   {
     "word": "whatsoever",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "whatever の強調形",
       "whatever の強調形（文脈依存）"
@@ -17707,6 +18702,7 @@ window.VOCAB_DATA = [
   {
     "word": "whereby",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "…によって…するところの",
       "…によって…するところの（文脈依存）"
@@ -17724,6 +18720,7 @@ window.VOCAB_DATA = [
   {
     "word": "wholly",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "まったく",
       "完全に"
@@ -17741,6 +18738,7 @@ window.VOCAB_DATA = [
   {
     "word": "worthwhile",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "時間をかけるだけの価値がある",
       "やりがいのある"
@@ -17758,6 +18756,7 @@ window.VOCAB_DATA = [
   {
     "word": "worthy",
     "part": "modifier",
+    "rank": "C1",
     "meanings": [
       "価値のある",
       "尊敬するべき",
@@ -17776,6 +18775,7 @@ window.VOCAB_DATA = [
   {
     "word": "absolute",
     "part": "modifier",
+    "rank": "B2",
     "meanings": [
       "まったくの",
       "完全な",

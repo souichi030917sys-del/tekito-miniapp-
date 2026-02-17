@@ -138,6 +138,7 @@ function pickByPart(rows, part, count) {
     out.push({
       word: r.word,
       part,
+      rank: (r.cefr || "").toUpperCase(),
       meanings: m,
       usage: makeUsage(r.definition, r.type, m),
       example: {

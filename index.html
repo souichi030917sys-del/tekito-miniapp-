@@ -98,26 +98,12 @@
       font-size: 13px;
     }
 
-    .quiz {
-      margin-top: 14px;
-    }
-
     .action-row {
-      margin-top: 10px;
+      margin-top: 14px;
       display: flex;
       gap: 10px;
       flex-wrap: wrap;
       align-items: center;
-    }
-
-    input[type="text"] {
-      flex: 1;
-      min-width: 240px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      padding: 10px 12px;
-      font-size: 15px;
-      background: #fff;
     }
 
     button {
@@ -210,7 +196,6 @@
       .action-row { flex-direction: column; align-items: stretch; }
       button { width: 100%; }
       .primary { min-width: 0; }
-      input[type="text"] { min-width: 0; }
     }
   </style>
 </head>
@@ -231,21 +216,12 @@
       </div>
     </div>
 
-    <div class="quiz">
-      <input id="answer" type="text" placeholder="意味を日本語で入力" maxlength="50" />
-    </div>
-
     <div class="action-row">
       <button id="showBtn" class="primary">答えを表示</button>
+      <button id="nextBtn" class="tertiary">次の単語</button>
     </div>
 
     <p id="result" class="result"></p>
-
-    <div class="action-row">
-      <button id="nextBtn" class="tertiary">次の単語</button>
-      <button id="shuffleBtn" class="tertiary">順番シャッフル</button>
-      <button id="resetBtn" class="tertiary">表示リセット</button>
-    </div>
 
     <section id="explain" class="explain">
       <h2>答え・解説</h2>
@@ -267,6 +243,11 @@
         <p id="exampleJa"></p>
       </div>
     </section>
+
+    <div class="action-row">
+      <button id="shuffleBtn" class="tertiary">順番シャッフル</button>
+      <button id="resetBtn" class="tertiary">表示リセット</button>
+    </div>
   </main>
 
   <script src="data/vocab1000.js"></script>
@@ -274,7 +255,6 @@
     const entries = Array.isArray(window.VOCAB_DATA) ? window.VOCAB_DATA : [];
 
     const enEl = document.getElementById("en");
-    const answerEl = document.getElementById("answer");
     const resultEl = document.getElementById("result");
     const countEl = document.getElementById("count");
     const rankEl = document.getElementById("rank");
@@ -351,7 +331,6 @@
       index += 1;
 
       enEl.textContent = current.word;
-      answerEl.value = "";
       resultEl.textContent = "";
       resultEl.className = "result";
       countEl.textContent = `${index} / ${entries.length}`;
@@ -359,7 +338,6 @@
 
       renderExplanation();
       explainEl.classList.remove("visible");
-      answerEl.focus();
     }
 
     function revealAnswer() {
@@ -378,14 +356,9 @@
     });
 
     resetBtn.addEventListener("click", () => {
-      answerEl.value = "";
       resultEl.textContent = "表示をリセットしました";
       resultEl.className = "result";
       explainEl.classList.remove("visible");
-    });
-
-    answerEl.addEventListener("keydown", (event) => {
-      if (event.key === "Enter") revealAnswer();
     });
 
     buildSetInfo();

@@ -155,6 +155,24 @@
       padding: 10px 14px;
     }
 
+    .btn-primary-state {
+      background: #111;
+      color: #ffef00;
+      font-size: 18px;
+      padding: 14px 22px;
+      min-width: 220px;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+    }
+
+    .btn-tertiary-state {
+      background: #ede5d9;
+      color: #5b422b;
+      padding: 10px 14px;
+      font-size: 14px;
+      min-width: 0;
+      box-shadow: none;
+    }
+
     .result {
       min-height: 1.4em;
       font-size: 14px;
@@ -203,6 +221,7 @@
       .action-row { flex-direction: column; align-items: stretch; }
       button { width: 100%; }
       .primary { min-width: 0; }
+      .btn-primary-state { min-width: 0; }
     }
   </style>
 </head>
@@ -282,6 +301,8 @@
     let order = [];
     let index = 0;
     let current = null;
+    let translationTicket = 0;
+    const exampleJaCache = JSON.parse(localStorage.getItem("exampleJaCache") || "{}");
 
     function partLabel(part) {
       if (part === "verb") return "動詞";
@@ -315,6 +336,28 @@
       });
     }
 
+    function hasValidJa(example) {
+      const ja = String(example?.ja || "").trim();
+      return ja && !ja.includes("日本語訳の生成に失敗しました。");
+    }
+
+    async function translateExampleJa(enText) {
+      const key = String(enText || "").trim();
+      if (!key) return "";
+      if (exampleJaCache[key]) return exampleJaCache[key];
+
+      const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(key)}&langpair=en|ja`;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`translation failed: ${res.status}`);
+      const data = await res.json();
+      const ja = String(data?.responseData?.translatedText || "").trim();
+      if (!ja) throw new Error("empty translation");
+
+      exampleJaCache[key] = ja;
+      localStorage.setItem("exampleJaCache", JSON.stringify(exampleJaCache));
+      return ja;
+    }
+
     function renderExplanation() {
       if (!current) return;
 
@@ -323,10 +366,46 @@
       fillList(usageListEl, current.usage || []);
 
       const exampleEn = current.example?.en || `${current.word} is used in many contexts.`;
-      const rawJa = current.example?.ja || current.meanings?.[0] || "";
+      const rawJa = hasValidJa(current.example) ? current.example.ja : (current.meanings?.[0] || "");
       const exampleJa = rawJa.replace(/^日本語訳[:：]\s*/, "");
       exampleEnEl.textContent = `例文（英語）: ${exampleEn}`;
       exampleJaEl.textContent = `日本語訳: ${exampleJa}`;
+
+      if (!hasValidJa(current.example)) {
+        const ticket = ++translationTicket;
+        exampleJaEl.textContent = "日本語訳: 翻訳中...";
+        translateExampleJa(exampleEn)
+          .then((ja) => {
+            if (ticket !== translationTicket || !current) return;
+            current.example.ja = ja;
+            exampleJaEl.textContent = `日本語訳: ${ja}`;
+          })
+          .catch(() => {
+            if (ticket !== translationTicket) return;
+            exampleJaEl.textContent = `日本語訳: ${current.meanings?.[0] || "取得できませんでした"}`;
+          });
+      }
+    }
+
+    function setTopActionState(revealed) {
+      if (revealed) {
+        nextBtn.classList.remove("tertiary");
+        nextBtn.classList.add("btn-primary-state");
+        nextBtn.style.order = "1";
+
+        showBtn.classList.remove("primary");
+        showBtn.classList.add("btn-tertiary-state");
+        showBtn.style.order = "2";
+        return;
+      }
+
+      nextBtn.classList.remove("btn-primary-state");
+      nextBtn.classList.add("tertiary");
+      nextBtn.style.order = "2";
+
+      showBtn.classList.remove("btn-tertiary-state");
+      showBtn.classList.add("primary");
+      showBtn.style.order = "1";
     }
 
     function showWord() {
@@ -339,6 +418,7 @@
 
       current = entries[order[index]];
       index += 1;
+      translationTicket += 1;
 
       enEl.textContent = current.word;
       resultEl.textContent = "";
@@ -348,6 +428,7 @@
 
       renderExplanation();
       explainEl.classList.remove("visible");
+      setTopActionState(false);
     }
 
     function revealAnswer() {
@@ -355,6 +436,7 @@
       resultEl.textContent = `答え: ${current.meanings.join(" / ")}`;
       resultEl.className = "result";
       explainEl.classList.add("visible");
+      setTopActionState(true);
     }
 
     showBtn.addEventListener("click", revealAnswer);
@@ -369,6 +451,7 @@
       resultEl.textContent = "表示をリセットしました";
       resultEl.className = "result";
       explainEl.classList.remove("visible");
+      setTopActionState(false);
     });
 
     buildSetInfo();
